@@ -4,7 +4,7 @@ import yahooPage from '../pageobjects/yahoo-search.page';
 import loginPage from '../pageobjects/login_phptravels.page';
 
 defineSupportCode(function({ When }) {
-  // *** belongs to Yahoo serch feature
+  // *** belongs to Yahoo search feature
   When(/^I enter "([^"]*)" into the search box$/, function(arg1) {
     yahooPage.enterText(arg1);
     yahooPage.searchInput.getValue().should.equal(arg1);

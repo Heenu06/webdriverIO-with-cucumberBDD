@@ -4,7 +4,7 @@ import yahooPage from '../pageobjects/yahoo-search.page';
 import myAccount from '../pageobjects/login_phptravels.page';
 
 defineSupportCode(function({ Then }) {
-  // *** belongs to Yahoo serch feature
+  // *** belongs to Yahoo search feature
   Then(/^I should see a list of search results$/, function() {
     yahooPage.isSearched().should.be.true;
   });

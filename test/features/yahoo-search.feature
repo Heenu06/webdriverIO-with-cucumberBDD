@@ -20,4 +20,4 @@ Feature: Performing a Yahoo Search
 
         Examples:
         |searchItem|
-        |"Selenium Webdriver"|
+        |"Cucumber BDD"|

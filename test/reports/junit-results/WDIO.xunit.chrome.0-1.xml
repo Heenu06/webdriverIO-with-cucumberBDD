@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="performing_a_yahoo_search1" timestamp="2019-04-16T21:29:35" time="3.413" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="a42e063c58643bc18a66806f859e6b02"/>
+      <property name="suiteName" value="Performing a Yahoo Search1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="performing_a_search_operation11" timestamp="2019-04-16T21:29:35" time="2.2" tests="4" failures="0" errors="1" skipped="3">
+    <properties>
+      <property name="specId" value="a42e063c58643bc18a66806f859e6b02"/>
+      <property name="suiteName" value="Performing a search operation11"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing a search operation11" name="I am on the search page9" time="5.734">
+      <error message="&#xA;expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'&#xA;"/>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'
+    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:11:31)
+    at new Promise (<anonymous>)
+    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Performing a search operation11" name="I enter &quot;Selenium Webdriver&quot; into the search box12" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Performing a search operation11" name="I click the search button13" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Performing a search operation11" name="I should see a list of search results14" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="performing_a_search_operation_with_passing_test_data_as_data_table23" timestamp="2019-04-16T21:29:38" time="1.163" tests="4" failures="0" errors="1" skipped="3">
+    <properties>
+      <property name="specId" value="a42e063c58643bc18a66806f859e6b02"/>
+      <property name="suiteName" value="Performing a search operation with passing test data as data table23"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table23" name="I am on the search page9" time="3.521">
+      <error message="&#xA;expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'&#xA;"/>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'
+    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:11:31)
+    at new Promise (<anonymous>)
+    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table23" name="I enter &quot;Selenium Webdriver&quot; into the search box17" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table23" name="I click the search button18" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table23" name="I should see a list of search results19" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>

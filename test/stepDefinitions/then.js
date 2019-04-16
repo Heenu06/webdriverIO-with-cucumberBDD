@@ -1,7 +1,7 @@
 
 import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
-import myAccount from '../pageobjects/ta-myaccount.page';
+import myAccount from '../pageobjects/login_phptravels.page';
 
 defineSupportCode(function({ Then }) {
   // *** belongs to Yahoo serch feature
@@ -9,7 +9,7 @@ defineSupportCode(function({ Then }) {
     yahooPage.isSearched().should.be.true;
   });
 
-  // *** belongs to ta-loging  feature
+  // *** belongs to php travels-loging  feature
   Then(/^I should see the message "([^"]*)" on my account page$/, function(message) {
     myAccount.getUserInfo().should.equal(message);
   });

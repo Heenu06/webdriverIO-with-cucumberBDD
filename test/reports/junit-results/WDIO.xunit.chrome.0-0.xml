@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="performing_a_login1" timestamp="2019-04-16T21:39:13" time="25.28" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="6e5995cf93ed47d729d3b9a5029c5222"/>
+      <property name="suiteName" value="Performing a login1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="performing_login_operation_with_passing_test_data_as_data_table17" timestamp="2019-04-16T21:39:13" time="25.254" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="6e5995cf93ed47d729d3b9a5029c5222"/>
+      <property name="suiteName" value="Performing login operation with passing test data as data table17"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing login operation with passing test data as data table17" name="I am on the phptravels page11" time="25.485"/>
+    <testcase classname="chrome.Performing login operation with passing test data as data table17" name="I login with username and password &quot;user@phptravels.com&quot; &quot;demouser&quot; into the text box12" time="16.628"/>
+    <testcase classname="chrome.Performing login operation with passing test data as data table17" name="I should see the message &quot;Hi, Johny Smith&quot; on my account page13" time="13.836"/>
+  </testsuite>
+</testsuites>

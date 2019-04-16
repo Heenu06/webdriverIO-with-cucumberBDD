@@ -10,7 +10,8 @@ class LoginPage extends Page {
     get passwordInput()   { return browser.element('//*[@name="password"]'); }
     get rememberMe ()     { return browser.element('//span[contains(., "Remember Me")]'); }
     get loginButton()     { return browser.element('//button[contains(., "Login")]'); }
-    get footerImage()     { return browser.element('//*[@class="foot-brand center-block img-responsive"]'); }
+    get footerImage()     { return browser.element('//*[@class="hidden-xs hidden-sm"]'); }
+    get accountMessage () { return browser.element('//div/h3[contains(., "Hi, Johny Smith")]'); }
 
     /**
      * define or overwrite page methods
@@ -36,6 +37,10 @@ class LoginPage extends Page {
       this.rememberMe.click();
       this.loginButton.click();
       browser.pause(2000);
+    }
+
+    getUserInfo (){
+        return this.accountMessage.getText();
     }
 }
 

@@ -1,7 +1,7 @@
 
 import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
-import loginPage from '../pageobjects/ta-login.page';
+import loginPage from '../pageobjects/login_phptravels.page';
 
 defineSupportCode(function({ When }) {
   // *** belongs to Yahoo serch feature
@@ -14,7 +14,7 @@ defineSupportCode(function({ When }) {
     yahooPage.search();
   });
 
-  // *** belongs to ta-loging  feature
+  // *** belongs to php travels-loging  feature
   When(/^I login with username and password "([^"]*)" "([^"]*)" into the text box$/, function(arg1, arg2) {
     loginPage.login(arg1, arg2);    // entering user name, password and and submiting the page
   });

@@ -4,11 +4,11 @@ Feature: Performing a login
     I want to login
     Because I want to book the ticket
 
-    Background:
 
-        Given I am on the phptravels page
+
 
     Scenario Outline: Performing login operation with passing test data as data table
+        Given I am on the phptravels page
         When I login with username and password <user> <password> into the text box
         Then I should see the message "Hi, Johny Smith" on my account page
 

@@ -1,7 +1,7 @@
 
 import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
-import loginPage from '../pageobjects/ta-login.page';
+import loginPage from '../pageobjects/login_phptravels.page';
 
 defineSupportCode(function({ Given }) {
 
@@ -11,7 +11,7 @@ defineSupportCode(function({ Given }) {
     browser.getTitle().should.equal('Yahoo Search - Web Search');
   });
 
-  // *** belongs to ta-loging  feature
+  // *** belongs to php travel-loging  feature
   Given(/^I am on the phptravels page$/, function() {
     loginPage.open();     // navigating to login page
   });

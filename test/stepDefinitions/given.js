@@ -3,6 +3,7 @@ import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
 import loginPage from '../pageobjects/login_phptravels.page';
 import googlePage from '../pageobjects/google-search.page';
+import facebookPage from '../pageobjects/facebook-login.page';
 
 defineSupportCode(function({ Given }) {
 
@@ -23,4 +24,9 @@ defineSupportCode(function({ Given }) {
     browser.getTitle().should.equal('Google');
   });
 
+  //*** belongs to facebook login feature
+  Given(/^I am on the facebook login page$/, function()
+  {
+    facebookPage.login();
+  });
 });

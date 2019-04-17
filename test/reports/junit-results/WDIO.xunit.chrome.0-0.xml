@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="performing_a_google_search1" timestamp="2019-04-17T11:10:31" time="4.963" tests="0" failures="0" errors="0" skipped="0">
+  <testsuite name="performing_a_login1" timestamp="2019-04-17T13:28:32" time="2.943" tests="0" failures="0" errors="0" skipped="0">
     <properties>
-      <property name="specId" value="4f35e014767cec4f947328d41267996e"/>
-      <property name="suiteName" value="Performing a google Search1"/>
+      <property name="specId" value="11dfc075f7da4bf0784a8cb2b4afdf54"/>
+      <property name="suiteName" value="Performing a login1"/>
       <property name="capabilities" value="chrome"/>
     </properties>
   </testsuite>
-  <testsuite name="performing_a_search_operation_with_passing_test_data_as_data_table18" timestamp="2019-04-17T11:10:31" time="4.94" tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="performing_login_operation17" timestamp="2019-04-17T13:28:32" time="2.929" tests="1" failures="0" errors="0" skipped="0">
     <properties>
-      <property name="specId" value="4f35e014767cec4f947328d41267996e"/>
-      <property name="suiteName" value="Performing a search operation with passing test data as data table18"/>
+      <property name="specId" value="11dfc075f7da4bf0784a8cb2b4afdf54"/>
+      <property name="suiteName" value="Performing login operation17"/>
       <property name="capabilities" value="chrome"/>
     </properties>
-    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I am on the google search page9" time="5.135"/>
-    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I enter &quot;Cucumber BDD&quot; into the google search box12" time="2.997"/>
-    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I click the google search button13" time="1.702"/>
-    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I should see a list of search results on google page14" time="0.326"/>
+    <testcase classname="chrome.Performing login operation17" name="I am on the facebook login page11" time="3.159"/>
   </testsuite>
 </testsuites>

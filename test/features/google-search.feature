@@ -1,8 +1,8 @@
 Feature: Performing a google Search
 
   As a user on the google search page
-  I want to search
-  Because I want to learn more about it
+  I want to use search option
+  Because I want to learn
 
   Background:
 

@@ -3,7 +3,7 @@ const defaultTimeoutInterval = process.env.DEBUG ? (60 * 60 * 500) : 90000;
 exports.config = {
 
     specs: [
-        './test/features/google-search.feature',
+        './test/features/facebook-login.feature',
     ],
     // Patterns to exclude.
     exclude: [

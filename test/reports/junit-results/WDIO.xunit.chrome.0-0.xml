@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="performing_a_login1" timestamp="2019-04-17T18:48:04" time="15.879" tests="0" failures="0" errors="0" skipped="0">
+  <testsuite name="performing_a_login1" timestamp="2019-04-17T22:43:16" time="12.95" tests="0" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="11dfc075f7da4bf0784a8cb2b4afdf54"/>
       <property name="suiteName" value="Performing a login1"/>
       <property name="capabilities" value="chrome"/>
     </properties>
   </testsuite>
-  <testsuite name="performing_login_operation17" timestamp="2019-04-17T18:48:04" time="15.854" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="performing_login_operation17" timestamp="2019-04-17T22:43:16" time="12.928" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="11dfc075f7da4bf0784a8cb2b4afdf54"/>
       <property name="suiteName" value="Performing login operation17"/>
       <property name="capabilities" value="chrome"/>
     </properties>
-    <testcase classname="chrome.Performing login operation17" name="I am on the facebook login page11" time="16.099"/>
-    <testcase classname="chrome.Performing login operation17" name="I enter username and password &quot;heenu_rocking@yahoo.com&quot; &quot;obey@GOD11me&quot; into the text box12" time="13.352"/>
-    <testcase classname="chrome.Performing login operation17" name="I should should login to my facebook account13" time="0.379"/>
+    <testcase classname="chrome.Performing login operation17" name="I am on the facebook login page11" time="13.225"/>
+    <testcase classname="chrome.Performing login operation17" name="I enter username and password &quot;heenu_rocking@yahoo.com&quot; &quot;obey@GOD11me&quot; into the text box12" time="9.973"/>
+    <testcase classname="chrome.Performing login operation17" name="I should should login to my facebook account13" time="0.458"/>
   </testsuite>
 </testsuites>

@@ -142,7 +142,7 @@ exports.config = {
     //services: ['selenium-standalone', 'phantomjs', 'appium'],
     //
     framework: 'cucumber',
-    reporters: ['spec', 'junit','allure', 'json'],
+    reporters: ['spec', 'junit','allure', 'json', 'multiple-cucumber-html'],
 
     reporterOptions: {
         junit:  {outputDir: './test/reports/junit-results/'},

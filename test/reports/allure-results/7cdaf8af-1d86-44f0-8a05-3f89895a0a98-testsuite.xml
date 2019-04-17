@@ -1,0 +1,125 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555495045281' stop='1555495048938'>
+    <name>Performing a google Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a google Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1555495045295' status='passed' stop='1555495047646'>
+            <name>I am on the google search page</name>
+            <title>I am on the google search page</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555495045304' status='passed' stop='1555495046619'>
+                    <name>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/url</name>
+                    <title>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a2c66f28-4582-409b-bdbc-87b5287b35b6-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='cf905804-7fd8-4387-8e16-395cd8d8674c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495047630' status='passed' stop='1555495047641'>
+                    <name>GET /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/title</name>
+                    <title>GET /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/title</title>
+                    <attachments>
+                        <attachment title='Response' source='e2c58cfc-6a35-496b-bd81-01d7811df638-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555495047647' status='passed' stop='1555495048928'>
+            <name>I enter "Cucumber BDD" into the google search box</name>
+            <title>I enter "Cucumber BDD" into the google search box</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555495047650' status='passed' stop='1555495047676'>
+                    <name>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element</name>
+                    <title>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7cf003e2-0c5e-4388-b9d3-7429f9e22358-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='2bd62758-4fff-4a24-9923-ccf446180cbd-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495047680' status='passed' stop='1555495047714'>
+                    <name>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element/0.8934055128077147-1/clear</name>
+                    <title>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element/0.8934055128077147-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='06d9aac4-e2f9-47dc-89b9-5c8fbe9f2de5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495047715' status='passed' stop='1555495047923'>
+                    <name>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element/0.8934055128077147-1/value</name>
+                    <title>POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element/0.8934055128077147-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='377d2041-7e9c-4414-a82b-a31c264ec564-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='1248ccdc-7423-442f-a521-a2baab3c5936-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555495048930' status='broken' stop='1555495048933'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click the search button" is ambiguous. The following steps matched the step definition</message>
+                <stack-trace>/^I click the search button$/ in /Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/when.js:14
+                /^I click the search button$/ in /Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/when.js:28</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555495048934' status='pending' stop='1555495048936'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -25,6 +25,8 @@ defineSupportCode(function({ When }) {
     googlePage.enterText(arg1);
 
   });
-
+  When(/^I click the google search button$/, function(){
+    googlePage.search();
+  })
 
 });

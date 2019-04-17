@@ -1,0 +1,190 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555495104277' stop='1555495110598'>
+    <name>Performing a google Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a google Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1555495104290' status='passed' stop='1555495106543'>
+            <name>I am on the google search page</name>
+            <title>I am on the google search page</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555495104300' status='passed' stop='1555495105515'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/url</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7d51620e-43aa-4d95-b703-cc9e9503a481-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='4bf95c29-5927-49ac-a20e-2da9e4c9b60e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495106528' status='passed' stop='1555495106539'>
+                    <name>GET /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/title</name>
+                    <title>GET /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/title</title>
+                    <attachments>
+                        <attachment title='Response' source='80acb86e-46eb-45d7-b574-494519ce1283-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555495106545' status='passed' stop='1555495107895'>
+            <name>I enter "Cucumber BDD" into the google search box</name>
+            <title>I enter "Cucumber BDD" into the google search box</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555495106548' status='passed' stop='1555495106584'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element</title>
+                    <attachments>
+                        <attachment title='Request' source='85dc326d-4d7b-4a71-a22a-a34fe8d191ab-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='eaea69bf-b1f6-4fbf-b57c-e460886de42b-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495106590' status='passed' stop='1555495106632'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element/0.015737863856855272-1/clear</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element/0.015737863856855272-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='cdc71299-e17d-43be-bc87-3db947c1bc45-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495106633' status='passed' stop='1555495106889'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element/0.015737863856855272-1/value</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element/0.015737863856855272-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='05726aae-5806-4e35-a546-ae5879a4f356-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='d09c79cf-74e6-43b0-b420-407554498883-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555495107898' status='passed' stop='1555495109128'>
+            <name>I click the google search button</name>
+            <title>I click the google search button</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555495107901' status='passed' stop='1555495107923'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element</title>
+                    <attachments>
+                        <attachment title='Request' source='93e53e86-a25b-49c4-955e-8a2132e7eab2-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='9603f775-7402-4be8-80fa-6e14e7814ad6-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495107926' status='passed' stop='1555495109125'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element/0.015737863856855272-2/click</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element/0.015737863856855272-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='21c86e09-86fa-4f49-a9b4-efcd4a9a11db-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555495109133' status='broken' stop='1555495110597'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555495109135' status='passed' stop='1555495109167'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6543c525-78aa-4e89-a4bc-7de05688cfd3-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='22366eb1-0321-498b-8183-f90c9b8495dd-attachment.json' type='application/json' size='599'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495109174' status='passed' stop='1555495109201'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='adb5a921-4ec0-40c3-bfdf-b626278d5efb-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='8596901c-647a-4c0a-ad02-043a88b19896-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495109675' status='passed' stop='1555495109692'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f60acb02-60ae-4a48-8974-84a83c0ce4d2-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='ad76ac81-d030-4d90-a56f-95458a627521-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555495110174' status='broken' stop='1555495110597'>
+                    <name>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements</name>
+                    <title>POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fc909d05-d272-4d0c-b88a-4f1b6a255a2e-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Screenshot' source='bf496c4f-cbc2-4fc8-b93c-08b562a2ecf4-attachment.png' type='image/png' size='201552'/>
+                    </attachments>
+                    <steps>
+                        <step start='1555495110181' status='passed' stop='1555495110193'>
+                            <name>GET /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/screenshot</name>
+                            <title>GET /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='3c242a8a-869c-4d3d-8a9a-eb138c615b5e-attachment.json' type='application/json' size='89'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("#results") still not visible after 1000ms</message>
+                <stack-trace>Error: element ("#results") still not visible after 1000ms
+                    at elements("#results") - isVisible.js:54:17
+                    at isVisible("#results") - waitForVisible.js:73:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

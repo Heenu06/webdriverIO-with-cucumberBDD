@@ -152,6 +152,13 @@ exports.config = {
           disableWebdriverStepsReporting: false,
           useCucumberStepReporter: false,
         },
+        htmlReporter: {
+            jsonFolder: './test/reports/json-report/',
+            reportFolder: `./test/reports/cucumber-report`,
+            pageTitle: 'Multiple Cucumber HTML Reporter',
+            reportName: 'Cucumber-report'
+            // ... other options, see Options
+        }
     },
 
     // If you are using Cucumber you need to specify the location of your step definitions.

@@ -31,9 +31,21 @@ exports.config = {
 
           {
               browserName: 'chrome',
+              maxInstances: '5',
+              chromeOptions: {
+                  args:[
+                      'disable-notifications',
+                      'disable-infobars',
+                      'disable-popup-blocking'
+                  ],
+                  prefs: {
+                      'profile.default_content_settings.popups': 1,
+                      'profile.default_content_settings.notifications': 1,
+                  }
+              }
               // platform: 'Windows 10',
               // version: '50.0',
-              maxInstances: '5',
+
           },
           //
           // {

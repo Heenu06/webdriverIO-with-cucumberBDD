@@ -3,7 +3,7 @@ const defaultTimeoutInterval = process.env.DEBUG ? (60 * 60 * 500) : 90000;
 exports.config = {
 
     specs: [
-        './test/features/yahoo-search.feature',
+        './test/features/google-search.feature',
     ],
     // Patterns to exclude.
     exclude: [

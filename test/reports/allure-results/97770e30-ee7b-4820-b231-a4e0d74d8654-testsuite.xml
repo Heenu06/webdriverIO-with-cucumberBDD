@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555493544716' stop='1555493547716'>
+    <name>Performing a google Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a google Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1555493544727' status='passed' stop='1555493547319'>
+            <name>I am on the google search page</name>
+            <title>I am on the google search page</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555493544735' status='passed' stop='1555493546292'>
+                    <name>POST /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/url</name>
+                    <title>POST /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bb80c9b2-40b3-49bf-81cc-fc116a0cad34-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='b1f52f14-e9f7-41f7-98ab-722c3b48daff-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555493547303' status='passed' stop='1555493547314'>
+                    <name>GET /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/title</name>
+                    <title>GET /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/title</title>
+                    <attachments>
+                        <attachment title='Response' source='3b1385bf-b428-4623-949d-1f95c2aa689c-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555493547320' status='broken' stop='1555493547716'>
+            <name>I enter "Cucumber BDD" into the google search box</name>
+            <title>I enter "Cucumber BDD" into the google search box</title>
+            <labels>
+                <label name='feature' value='Performing a google Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555493547322' status='passed' stop='1555493547357'>
+                    <name>POST /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/element</name>
+                    <title>POST /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c1307b70-e996-474a-8917-a6b8d6f8ca8f-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='a358fdf2-ee88-4157-a4d8-0d352f611b3b-attachment.json' type='application/json' size='855'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555493547360' status='broken' stop='1555493547716'>
+                    <name>GET /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/screenshot</name>
+                    <title>GET /wd/hub/session/d2b7bda399a2536f1aef1db00e0d3086/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='80ec0e02-1ccc-4088-9b32-b5a06f46bad6-attachment.png' type='image/png' size='47781'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //*[@name="q" because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@name="q"' is not a valid XPath expression.</message>
+                <stack-trace>Error: Argument was an invalid selector (e.g. XPath/CSS).
+                    at element("//*[@name="q"") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

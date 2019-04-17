@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^5.7.11",
+    "cucumber-html-reporter": "^4.0.5",
     "eslint": "^1.10.3",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",

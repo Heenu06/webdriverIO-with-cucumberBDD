@@ -1,0 +1,100 @@
+{
+  "uid" : "a87aef1261447336",
+  "name" : "I enter \"Cucumber BDD\" into the search box",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I enter \"Cucumber BDD\" into the search box",
+  "historyId" : "816673d509eccd516b27cb3ffb4baa25",
+  "time" : {
+    "start" : 1555491600512,
+    "stop" : 1555491600512,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Cucumber BDD\" into the search box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d71b0c5d1cd5b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452849344,
+        "stop" : 1555452849658,
+        "duration" : 314
+      }
+    }, {
+      "uid" : "1530d96b07ca81e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452641131,
+        "stop" : 1555452641469,
+        "duration" : 338
+      }
+    }, {
+      "uid" : "4e5acdf938837ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452484619,
+        "stop" : 1555452484891,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "631d180ffb36fe9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452339353,
+        "stop" : 1555452339681,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "9ec49670f63609c9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1555451716677,
+        "stop" : 1555451716678,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a87aef1261447336.json",
+  "parameterValues" : [ "chrome" ]
+}

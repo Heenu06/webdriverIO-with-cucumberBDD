@@ -1,0 +1,281 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "I should see a list of search results",
+    "uid" : "525809a2b81f2db2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1555495109133,
+      "stop" : 1555495110597,
+      "duration" : 1464
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I should should login to my facebook account",
+    "uid" : "a78ee3a454194042",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555523300063,
+      "stop" : 1555523300177,
+      "duration" : 114
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I login with username and password \"user@phptravels.com\" \"demouser\" into the text box",
+    "uid" : "a1c7de17bea68009",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555447162480,
+      "stop" : 1555447165268,
+      "duration" : 2788
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I login with username and password \"heenu_rocking@yahoo.com\" \"obey@GOD11me\" into the text box on facebook page",
+    "uid" : "a5cbc399b61063e2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1555511004642,
+      "stop" : 1555511004645,
+      "duration" : 3
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click the google search button",
+    "uid" : "674b33fa18dc6875",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555504074958,
+      "stop" : 1555504076731,
+      "duration" : 1773
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I should see a list of search results",
+    "uid" : "c486110f1ffc955e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555491600496,
+      "stop" : 1555491600497,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I should see a list of search results on google page",
+    "uid" : "7decb00b3bffa0f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555504076734,
+      "stop" : 1555504076847,
+      "duration" : 113
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I enter \"Cucumber BDD\" into the google search box",
+    "uid" : "f2634f1eed96273",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555504073659,
+      "stop" : 1555504074954,
+      "duration" : 1295
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the search page",
+    "uid" : "a29d017afbcb69dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1555491600512,
+      "stop" : 1555491600512,
+      "duration" : 0
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I enter \"Selenium Webdriver\" into the search box",
+    "uid" : "693c7305a98e24d0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555491600490,
+      "stop" : 1555491600492,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I should see the message \"Hi, Johny Smith\" on my account page",
+    "uid" : "31edf84f09eee279",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555447165271,
+      "stop" : 1555447178865,
+      "duration" : 13594
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I enter username and password \"heenu_rocking@yahoo.com\" \"obey@GOD11me\" into the text box",
+    "uid" : "4c390087264a5f07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555523287090,
+      "stop" : 1555523300060,
+      "duration" : 12970
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I enter \"Selenium Webdriver\" into the search box",
+    "uid" : "a521eeef663bba32",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555446579206,
+      "stop" : 1555446579207,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click the search button",
+    "uid" : "ca4eef11a23d1d19",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555491600494,
+      "stop" : 1555491600495,
+      "duration" : 1
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the phptravels page",
+    "uid" : "dcfe105862c60c43",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555447153622,
+      "stop" : 1555447162478,
+      "duration" : 8856
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the google search page",
+    "uid" : "80ba2bfe29b5e8f3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555504071148,
+      "stop" : 1555504073657,
+      "duration" : 2509
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click the search button",
+    "uid" : "b61f6197e561b61b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1555495048930,
+      "stop" : 1555495048933,
+      "duration" : 3
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I enter \"Cucumber BDD\" into the search box",
+    "uid" : "a87aef1261447336",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555491600512,
+      "stop" : 1555491600512,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the facebook login page",
+    "uid" : "6f2c96697f543ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555523284343,
+      "stop" : 1555523287088,
+      "duration" : 2745
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I am on the search page",
+    "uid" : "3e202bed97de2c28",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1555491600486,
+      "stop" : 1555491600489,
+      "duration" : 3
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I login to facebook with username and password \"heenu_rocking@yahoo.com\" \"obey@GOD11me\" on facebook page",
+    "uid" : "473b635cb839f73c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1555511482353,
+      "stop" : 1555511482356,
+      "duration" : 3
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I click the search button",
+    "uid" : "5fde6144ff170acb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555491600512,
+      "stop" : 1555491600512,
+      "duration" : 0
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "I should see a list of search results",
+    "uid" : "c6a875b383818210",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1555491600512,
+      "stop" : 1555491600512,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

@@ -1,0 +1,313 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Performing a Yahoo Search",
+    "children" : [ {
+      "name" : "Performing a search operation with passing test data as data table",
+      "children" : [ {
+        "name" : "I enter \"Selenium Webdriver\" into the search box",
+        "uid" : "a521eeef663bba32",
+        "parentUid" : "8ec6584b498f57d67313f073d38a2fb5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555446579206,
+          "stop" : 1555446579207,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I am on the search page",
+        "uid" : "a29d017afbcb69dc",
+        "parentUid" : "8ec6584b498f57d67313f073d38a2fb5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555491600512,
+          "stop" : 1555491600512,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I enter \"Cucumber BDD\" into the search box",
+        "uid" : "a87aef1261447336",
+        "parentUid" : "8ec6584b498f57d67313f073d38a2fb5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555491600512,
+          "stop" : 1555491600512,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I click the search button",
+        "uid" : "5fde6144ff170acb",
+        "parentUid" : "8ec6584b498f57d67313f073d38a2fb5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555491600512,
+          "stop" : 1555491600512,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I should see a list of search results",
+        "uid" : "c6a875b383818210",
+        "parentUid" : "8ec6584b498f57d67313f073d38a2fb5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555491600512,
+          "stop" : 1555491600512,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "8ec6584b498f57d67313f073d38a2fb5"
+    }, {
+      "name" : "Performing a search operation",
+      "children" : [ {
+        "name" : "I am on the search page",
+        "uid" : "3e202bed97de2c28",
+        "parentUid" : "ffe00711b24be15a8bbaecfb72d77b3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555491600486,
+          "stop" : 1555491600489,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I enter \"Selenium Webdriver\" into the search box",
+        "uid" : "693c7305a98e24d0",
+        "parentUid" : "ffe00711b24be15a8bbaecfb72d77b3d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555491600490,
+          "stop" : 1555491600492,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I click the search button",
+        "uid" : "ca4eef11a23d1d19",
+        "parentUid" : "ffe00711b24be15a8bbaecfb72d77b3d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555491600494,
+          "stop" : 1555491600495,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I should see a list of search results",
+        "uid" : "c486110f1ffc955e",
+        "parentUid" : "ffe00711b24be15a8bbaecfb72d77b3d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1555491600496,
+          "stop" : 1555491600497,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "ffe00711b24be15a8bbaecfb72d77b3d"
+    } ],
+    "uid" : "d629226f4812bab065e4821549749402"
+  }, {
+    "name" : "Performing a login",
+    "children" : [ {
+      "name" : "Performing login operation with passing test data as data table",
+      "children" : [ {
+        "name" : "I am on the phptravels page",
+        "uid" : "dcfe105862c60c43",
+        "parentUid" : "3b587a44f5e3b57ca84c3b9069aabca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555447153622,
+          "stop" : 1555447162478,
+          "duration" : 8856
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I login with username and password \"user@phptravels.com\" \"demouser\" into the text box",
+        "uid" : "a1c7de17bea68009",
+        "parentUid" : "3b587a44f5e3b57ca84c3b9069aabca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555447162480,
+          "stop" : 1555447165268,
+          "duration" : 2788
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I should see the message \"Hi, Johny Smith\" on my account page",
+        "uid" : "31edf84f09eee279",
+        "parentUid" : "3b587a44f5e3b57ca84c3b9069aabca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555447165271,
+          "stop" : 1555447178865,
+          "duration" : 13594
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "3b587a44f5e3b57ca84c3b9069aabca1"
+    }, {
+      "name" : "Performing login operation",
+      "children" : [ {
+        "name" : "I login with username and password \"heenu_rocking@yahoo.com\" \"obey@GOD11me\" into the text box on facebook page",
+        "uid" : "a5cbc399b61063e2",
+        "parentUid" : "2f526e0473c2e929c4e7d1b53abab7a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555511004642,
+          "stop" : 1555511004645,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I login to facebook with username and password \"heenu_rocking@yahoo.com\" \"obey@GOD11me\" on facebook page",
+        "uid" : "473b635cb839f73c",
+        "parentUid" : "2f526e0473c2e929c4e7d1b53abab7a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555511482353,
+          "stop" : 1555511482356,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I am on the facebook login page",
+        "uid" : "6f2c96697f543ee",
+        "parentUid" : "2f526e0473c2e929c4e7d1b53abab7a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555523284343,
+          "stop" : 1555523287088,
+          "duration" : 2745
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I enter username and password \"heenu_rocking@yahoo.com\" \"obey@GOD11me\" into the text box",
+        "uid" : "4c390087264a5f07",
+        "parentUid" : "2f526e0473c2e929c4e7d1b53abab7a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555523287090,
+          "stop" : 1555523300060,
+          "duration" : 12970
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I should should login to my facebook account",
+        "uid" : "a78ee3a454194042",
+        "parentUid" : "2f526e0473c2e929c4e7d1b53abab7a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555523300063,
+          "stop" : 1555523300177,
+          "duration" : 114
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "2f526e0473c2e929c4e7d1b53abab7a0"
+    } ],
+    "uid" : "0727f32e6f3888a219c4ff9491d8ff48"
+  }, {
+    "name" : "Performing a google Search",
+    "children" : [ {
+      "name" : "Performing a search operation with passing test data as data table",
+      "children" : [ {
+        "name" : "I click the search button",
+        "uid" : "b61f6197e561b61b",
+        "parentUid" : "f7d6b9bc6c69a940491691b4eeb6e33f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555495048930,
+          "stop" : 1555495048933,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I should see a list of search results",
+        "uid" : "525809a2b81f2db2",
+        "parentUid" : "f7d6b9bc6c69a940491691b4eeb6e33f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1555495109133,
+          "stop" : 1555495110597,
+          "duration" : 1464
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I am on the google search page",
+        "uid" : "80ba2bfe29b5e8f3",
+        "parentUid" : "f7d6b9bc6c69a940491691b4eeb6e33f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555504071148,
+          "stop" : 1555504073657,
+          "duration" : 2509
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I enter \"Cucumber BDD\" into the google search box",
+        "uid" : "f2634f1eed96273",
+        "parentUid" : "f7d6b9bc6c69a940491691b4eeb6e33f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555504073659,
+          "stop" : 1555504074954,
+          "duration" : 1295
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I click the google search button",
+        "uid" : "674b33fa18dc6875",
+        "parentUid" : "f7d6b9bc6c69a940491691b4eeb6e33f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555504074958,
+          "stop" : 1555504076731,
+          "duration" : 1773
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I should see a list of search results on google page",
+        "uid" : "7decb00b3bffa0f",
+        "parentUid" : "f7d6b9bc6c69a940491691b4eeb6e33f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1555504076734,
+          "stop" : 1555504076847,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "f7d6b9bc6c69a940491691b4eeb6e33f"
+    } ],
+    "uid" : "c78bced38ad16807aa9bcf491d9fe46b"
+  } ]
+}

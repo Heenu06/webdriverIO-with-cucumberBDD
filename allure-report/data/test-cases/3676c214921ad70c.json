@@ -1,0 +1,143 @@
+{
+  "uid" : "3676c214921ad70c",
+  "name" : "I enter \"Cucumber BDD\" into the google search box",
+  "fullName" : "Performing a google Search Performing a search operation with passing test data as data table.I enter \"Cucumber BDD\" into the google search box",
+  "historyId" : "841a1e72f6ec5a436b4a8ffa38c520ce",
+  "time" : {
+    "start" : 1555495047647,
+    "stop" : 1555495048928,
+    "duration" : 1281
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element",
+      "time" : {
+        "start" : 1555495047650,
+        "stop" : 1555495047676,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac9a68d043345e29",
+        "name" : "Request",
+        "source" : "ac9a68d043345e29.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "d4b0773953c7f13f",
+        "name" : "Response",
+        "source" : "d4b0773953c7f13f.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element/0.8934055128077147-1/clear",
+      "time" : {
+        "start" : 1555495047680,
+        "stop" : 1555495047714,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce8d4aff1767efe6",
+        "name" : "Response",
+        "source" : "ce8d4aff1767efe6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/23bdb358820f2e5b331e1c2469e255ef/element/0.8934055128077147-1/value",
+      "time" : {
+        "start" : 1555495047715,
+        "stop" : 1555495047923,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2fb71313b29969b",
+        "name" : "Request",
+        "source" : "b2fb71313b29969b.json",
+        "type" : "application/json",
+        "size" : 207
+      }, {
+        "uid" : "8ec8796241cf1065",
+        "name" : "Response",
+        "source" : "8ec8796241cf1065.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a google Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Cucumber BDD\" into the google search box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3676c214921ad70c.json",
+  "parameterValues" : [ "chrome" ]
+}

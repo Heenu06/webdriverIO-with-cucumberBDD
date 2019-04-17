@@ -1,0 +1,60 @@
+{
+  "uid" : "43fc076028a794cb",
+  "name" : "I should should login to my facebook account",
+  "fullName" : "Performing a login Performing login operation.I should should login to my facebook account",
+  "historyId" : "60ec55bdbbae2959d8c576f77deb8dfc",
+  "time" : {
+    "start" : 1555511004647,
+    "stop" : 1555511004648,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature:13",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should should login to my facebook account"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43fc076028a794cb.json",
+  "parameterValues" : [ "chrome" ]
+}

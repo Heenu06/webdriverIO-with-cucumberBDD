@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//div/a[@title=\"Go to Google Home\"]"
+}

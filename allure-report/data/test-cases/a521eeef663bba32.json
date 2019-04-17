@@ -1,0 +1,60 @@
+{
+  "uid" : "a521eeef663bba32",
+  "name" : "I enter \"Selenium Webdriver\" into the search box",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I enter \"Selenium Webdriver\" into the search box",
+  "historyId" : "371e9a6ac9d1a559ceb44d6b21bf2cf1",
+  "time" : {
+    "start" : 1555446579206,
+    "stop" : 1555446579207,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Selenium Webdriver\" into the search box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a521eeef663bba32.json",
+  "parameterValues" : [ "chrome" ]
+}

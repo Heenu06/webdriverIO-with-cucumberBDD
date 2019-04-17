@@ -1,0 +1,239 @@
+{
+  "uid" : "7cf3c02e9a657831",
+  "name" : "I enter \"Selenium Webdriver\" into the search box",
+  "fullName" : "Performing a Yahoo Search Performing a search operation.I enter \"Selenium Webdriver\" into the search box",
+  "historyId" : "82f5c50e6a3a603b7f82a0a273d3b146",
+  "time" : {
+    "start" : 1555452637685,
+    "stop" : 1555452638243,
+    "duration" : 558
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element",
+      "time" : {
+        "start" : 1555452637687,
+        "stop" : 1555452637868,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0967205a13d5c69",
+        "name" : "Request",
+        "source" : "d0967205a13d5c69.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "ae9dfb28f0482288",
+        "name" : "Response",
+        "source" : "ae9dfb28f0482288.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element/0.8732674181691731-1/clear",
+      "time" : {
+        "start" : 1555452637871,
+        "stop" : 1555452637910,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6328455e33ecd04",
+        "name" : "Response",
+        "source" : "d6328455e33ecd04.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element",
+      "time" : {
+        "start" : 1555452637912,
+        "stop" : 1555452637927,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac747b7d5de4eaf5",
+        "name" : "Request",
+        "source" : "ac747b7d5de4eaf5.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "e0a2dd8a7a7ee237",
+        "name" : "Response",
+        "source" : "e0a2dd8a7a7ee237.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element/0.8732674181691731-1/clear",
+      "time" : {
+        "start" : 1555452637934,
+        "stop" : 1555452637956,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6243ae40e62be153",
+        "name" : "Response",
+        "source" : "6243ae40e62be153.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element/0.8732674181691731-1/value",
+      "time" : {
+        "start" : 1555452637956,
+        "stop" : 1555452638201,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47f7bf4ac03c1e00",
+        "name" : "Request",
+        "source" : "47f7bf4ac03c1e00.json",
+        "type" : "application/json",
+        "size" : 291
+      }, {
+        "uid" : "631e94d5fe2d4734",
+        "name" : "Response",
+        "source" : "631e94d5fe2d4734.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element",
+      "time" : {
+        "start" : 1555452638202,
+        "stop" : 1555452638223,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7713e540794f7d8",
+        "name" : "Request",
+        "source" : "a7713e540794f7d8.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "dd36296a063497e5",
+        "name" : "Response",
+        "source" : "dd36296a063497e5.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/855fbb8a0678c2c5b03b84eab6ad6d99/element/0.8732674181691731-1/property/value",
+      "time" : {
+        "start" : 1555452638226,
+        "stop" : 1555452638240,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef8f78cdd6119a18",
+        "name" : "Response",
+        "source" : "ef8f78cdd6119a18.json",
+        "type" : "application/json",
+        "size" : 107
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Selenium Webdriver\" into the search box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cf3c02e9a657831.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,120 @@
+{
+  "uid" : "e5e9c09df6747a2b",
+  "name" : "I am on the search page",
+  "fullName" : "Performing a Yahoo Search Performing a search operation.I am on the search page",
+  "historyId" : "61a18914d68c3fd131fd36605779d3e4",
+  "time" : {
+    "start" : 1555446575836,
+    "stop" : 1555446578015,
+    "duration" : 2179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'",
+  "statusTrace" : "AssertionError: expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'\n                    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:11:31)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'",
+    "statusTrace" : "AssertionError: expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'\n                    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:11:31)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c4b19b84c0cff3e9f10a88fffc89526f/url",
+      "time" : {
+        "start" : 1555446575846,
+        "stop" : 1555446576980,
+        "duration" : 1134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "785f593bf29dba86",
+        "name" : "Request",
+        "source" : "785f593bf29dba86.json",
+        "type" : "application/json",
+        "size" : 42
+      }, {
+        "uid" : "843addd50651179e",
+        "name" : "Response",
+        "source" : "843addd50651179e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/c4b19b84c0cff3e9f10a88fffc89526f/title",
+      "time" : {
+        "start" : 1555446577986,
+        "stop" : 1555446578001,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d079c23eda6391d",
+        "name" : "Response",
+        "source" : "6d079c23eda6391d.json",
+        "type" : "application/json",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the search page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5e9c09df6747a2b.json",
+  "parameterValues" : [ "chrome" ]
+}

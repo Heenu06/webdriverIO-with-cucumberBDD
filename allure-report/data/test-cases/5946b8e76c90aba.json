@@ -1,0 +1,121 @@
+{
+  "uid" : "5946b8e76c90aba",
+  "name" : "I click the search button",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I click the search button",
+  "historyId" : "31432f2249d26d4499180731eb2ecd53",
+  "time" : {
+    "start" : 1555452484894,
+    "stop" : 1555452485702,
+    "duration" : 808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//div[@class=\"ico-syc mag-glass\"]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//div[@class=\"ico-syc mag-glass\"]\").\n                    at click() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//div[@class=\"ico-syc mag-glass\"]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//div[@class=\"ico-syc mag-glass\"]\").\n                    at click() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b849c1fc0d0a677547a1ba0e6e04211c/element",
+      "time" : {
+        "start" : 1555452484895,
+        "stop" : 1555452484910,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a21d237aa1cee020",
+        "name" : "Request",
+        "source" : "a21d237aa1cee020.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "e4e3b0ea04e42f86",
+        "name" : "Response",
+        "source" : "e4e3b0ea04e42f86.json",
+        "type" : "application/json",
+        "size" : 639
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/b849c1fc0d0a677547a1ba0e6e04211c/screenshot",
+      "time" : {
+        "start" : 1555452484912,
+        "stop" : 1555452485702,
+        "duration" : 790
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//div[@class=\"ico-syc mag-glass\"]\").\n                    at click() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc548871537adef9",
+        "name" : "Screenshot",
+        "source" : "dc548871537adef9.png",
+        "type" : "image/png",
+        "size" : 801857
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click the search button"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5946b8e76c90aba.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "31370d790d2b8024",
+  "name" : "I am on the facebook login page",
+  "fullName" : "Performing a login Performing login operation.I am on the facebook login page",
+  "historyId" : "fd447082662c81e3c406166c0495138c",
+  "time" : {
+    "start" : 1555517146950,
+    "stop" : 1555517149766,
+    "duration" : 2816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d6c031a7e5cf34c6cb4c17c3c8e2ead1/url",
+      "time" : {
+        "start" : 1555517146961,
+        "stop" : 1555517148757,
+        "duration" : 1796
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33b4077c547a1861",
+        "name" : "Request",
+        "source" : "33b4077c547a1861.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "72cd6b3c6af45281",
+        "name" : "Response",
+        "source" : "72cd6b3c6af45281.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the facebook login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31370d790d2b8024.json",
+  "parameterValues" : [ "chrome" ]
+}

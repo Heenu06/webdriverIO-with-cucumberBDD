@@ -1,0 +1,195 @@
+{
+  "uid" : "19b11a357aacca64",
+  "name" : "I should should login to my facebook account",
+  "fullName" : "Performing a login Performing login operation.I should should login to my facebook account",
+  "historyId" : "60ec55bdbbae2959d8c576f77deb8dfc",
+  "time" : {
+    "start" : 1555523238721,
+    "stop" : 1555523238856,
+    "duration" : 135
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_facebookLogin2.default.getAccount(...).should.be.true is not a function",
+  "statusTrace" : "TypeError: _facebookLogin2.default.getAccount(...).should.be.true is not a function\n                    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/then.js:28:5)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_facebookLogin2.default.getAccount(...).should.be.true is not a function",
+    "statusTrace" : "TypeError: _facebookLogin2.default.getAccount(...).should.be.true is not a function\n                    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/then.js:28:5)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element",
+      "time" : {
+        "start" : 1555523238723,
+        "stop" : 1555523238763,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd5f414f40f6ad78",
+        "name" : "Request",
+        "source" : "bd5f414f40f6ad78.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "ef0d6ff965057eb8",
+        "name" : "Response",
+        "source" : "ef0d6ff965057eb8.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/elements",
+      "time" : {
+        "start" : 1555523238772,
+        "stop" : 1555523238796,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "250e5e681a255f58",
+        "name" : "Request",
+        "source" : "250e5e681a255f58.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "7b25ef669f535f09",
+        "name" : "Response",
+        "source" : "7b25ef669f535f09.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.21693559892561431-1/displayed",
+      "time" : {
+        "start" : 1555523238797,
+        "stop" : 1555523238814,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c47d5568b028ebeb",
+        "name" : "Response",
+        "source" : "c47d5568b028ebeb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element",
+      "time" : {
+        "start" : 1555523238815,
+        "stop" : 1555523238832,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7487fc5ba1c9492",
+        "name" : "Request",
+        "source" : "7487fc5ba1c9492.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "ff332248226f49de",
+        "name" : "Response",
+        "source" : "ff332248226f49de.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.21693559892561431-1/displayed",
+      "time" : {
+        "start" : 1555523238835,
+        "stop" : 1555523238847,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9214571621355406",
+        "name" : "Response",
+        "source" : "9214571621355406.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should should login to my facebook account"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19b11a357aacca64.json",
+  "parameterValues" : [ "chrome" ]
+}

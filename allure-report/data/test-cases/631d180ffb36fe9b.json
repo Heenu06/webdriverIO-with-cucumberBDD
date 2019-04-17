@@ -1,0 +1,239 @@
+{
+  "uid" : "631d180ffb36fe9b",
+  "name" : "I enter \"Cucumber BDD\" into the search box",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I enter \"Cucumber BDD\" into the search box",
+  "historyId" : "816673d509eccd516b27cb3ffb4baa25",
+  "time" : {
+    "start" : 1555452339353,
+    "stop" : 1555452339681,
+    "duration" : 328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element",
+      "time" : {
+        "start" : 1555452339354,
+        "stop" : 1555452339372,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3edb84057793a38f",
+        "name" : "Request",
+        "source" : "3edb84057793a38f.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "843d40037d63bda7",
+        "name" : "Response",
+        "source" : "843d40037d63bda7.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element/0.366818385495445-1/clear",
+      "time" : {
+        "start" : 1555452339378,
+        "stop" : 1555452339441,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60ad72bbc4ae7d1e",
+        "name" : "Response",
+        "source" : "60ad72bbc4ae7d1e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element",
+      "time" : {
+        "start" : 1555452339442,
+        "stop" : 1555452339443,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcda1f97d0514906",
+        "name" : "Request",
+        "source" : "fcda1f97d0514906.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "40949bc8c11a3fd1",
+        "name" : "Response",
+        "source" : "40949bc8c11a3fd1.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element/0.366818385495445-1/clear",
+      "time" : {
+        "start" : 1555452339443,
+        "stop" : 1555452339462,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3dfb5c3d92c5ced",
+        "name" : "Response",
+        "source" : "a3dfb5c3d92c5ced.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element/0.366818385495445-1/value",
+      "time" : {
+        "start" : 1555452339463,
+        "stop" : 1555452339628,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33c49cb237f5ca59",
+        "name" : "Request",
+        "source" : "33c49cb237f5ca59.json",
+        "type" : "application/json",
+        "size" : 207
+      }, {
+        "uid" : "493a3f97ab78d4cb",
+        "name" : "Response",
+        "source" : "493a3f97ab78d4cb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element",
+      "time" : {
+        "start" : 1555452339633,
+        "stop" : 1555452339660,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d359592e80e4df5d",
+        "name" : "Request",
+        "source" : "d359592e80e4df5d.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "e3ac3f97da57d4ac",
+        "name" : "Response",
+        "source" : "e3ac3f97da57d4ac.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/2cb3520ea001e13d2730ea258c9188fb/element/0.366818385495445-1/property/value",
+      "time" : {
+        "start" : 1555452339668,
+        "stop" : 1555452339679,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4963f0ffb7c68e6",
+        "name" : "Response",
+        "source" : "e4963f0ffb7c68e6.json",
+        "type" : "application/json",
+        "size" : 101
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Cucumber BDD\" into the search box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "631d180ffb36fe9b.json",
+  "parameterValues" : [ "chrome" ]
+}

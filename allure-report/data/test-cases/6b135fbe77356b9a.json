@@ -1,0 +1,191 @@
+{
+  "uid" : "6b135fbe77356b9a",
+  "name" : "I should see a list of search results",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I should see a list of search results",
+  "historyId" : "17f45a6b406791e81cbb63ca0e89b66a",
+  "time" : {
+    "start" : 1555452851147,
+    "stop" : 1555452851406,
+    "duration" : 259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/433ed674a90b37d386d910cbb4b63c23/element",
+      "time" : {
+        "start" : 1555452851148,
+        "stop" : 1555452851206,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24487f66061a11d8",
+        "name" : "Request",
+        "source" : "24487f66061a11d8.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "f986f9661980706d",
+        "name" : "Response",
+        "source" : "f986f9661980706d.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/433ed674a90b37d386d910cbb4b63c23/elements",
+      "time" : {
+        "start" : 1555452851210,
+        "stop" : 1555452851270,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "872d80f08734fee3",
+        "name" : "Request",
+        "source" : "872d80f08734fee3.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "30062ff782d70986",
+        "name" : "Response",
+        "source" : "30062ff782d70986.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/433ed674a90b37d386d910cbb4b63c23/element/0.6257630013800539-1/displayed",
+      "time" : {
+        "start" : 1555452851271,
+        "stop" : 1555452851370,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cafd3447de5e66b0",
+        "name" : "Response",
+        "source" : "cafd3447de5e66b0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/433ed674a90b37d386d910cbb4b63c23/element",
+      "time" : {
+        "start" : 1555452851371,
+        "stop" : 1555452851390,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f366276565b9fd12",
+        "name" : "Request",
+        "source" : "f366276565b9fd12.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "f89e92ab9e24c23b",
+        "name" : "Response",
+        "source" : "f89e92ab9e24c23b.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/433ed674a90b37d386d910cbb4b63c23/element/0.6257630013800539-1/displayed",
+      "time" : {
+        "start" : 1555452851393,
+        "stop" : 1555452851405,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb6789013a148239",
+        "name" : "Response",
+        "source" : "eb6789013a148239.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see a list of search results"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b135fbe77356b9a.json",
+  "parameterValues" : [ "chrome" ]
+}

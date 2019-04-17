@@ -1,0 +1,265 @@
+{
+  "uid" : "a78ee3a454194042",
+  "name" : "I should should login to my facebook account",
+  "fullName" : "Performing a login Performing login operation.I should should login to my facebook account",
+  "historyId" : "60ec55bdbbae2959d8c576f77deb8dfc",
+  "time" : {
+    "start" : 1555523300063,
+    "stop" : 1555523300177,
+    "duration" : 114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d5ee0f95b60074c923b53ba6e9f15acd/element",
+      "time" : {
+        "start" : 1555523300065,
+        "stop" : 1555523300092,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b57df108965bd22",
+        "name" : "Request",
+        "source" : "b57df108965bd22.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "71defd5e3d543f22",
+        "name" : "Response",
+        "source" : "71defd5e3d543f22.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d5ee0f95b60074c923b53ba6e9f15acd/elements",
+      "time" : {
+        "start" : 1555523300099,
+        "stop" : 1555523300120,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c567d4f8ec6b7c45",
+        "name" : "Request",
+        "source" : "c567d4f8ec6b7c45.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "68f9e515cd92784f",
+        "name" : "Response",
+        "source" : "68f9e515cd92784f.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d5ee0f95b60074c923b53ba6e9f15acd/element/0.8808624606607642-1/displayed",
+      "time" : {
+        "start" : 1555523300121,
+        "stop" : 1555523300139,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb9fdce0407f97bb",
+        "name" : "Response",
+        "source" : "bb9fdce0407f97bb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d5ee0f95b60074c923b53ba6e9f15acd/element",
+      "time" : {
+        "start" : 1555523300142,
+        "stop" : 1555523300158,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bff304e8fdda091",
+        "name" : "Request",
+        "source" : "7bff304e8fdda091.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "f96f63070f18a562",
+        "name" : "Response",
+        "source" : "f96f63070f18a562.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d5ee0f95b60074c923b53ba6e9f15acd/element/0.8808624606607642-1/displayed",
+      "time" : {
+        "start" : 1555523300161,
+        "stop" : 1555523300174,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "340ae627bd548878",
+        "name" : "Response",
+        "source" : "340ae627bd548878.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should should login to my facebook account"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "19b11a357aacca64",
+      "status" : "broken",
+      "statusDetails" : "_facebookLogin2.default.getAccount(...).should.be.true is not a function",
+      "time" : {
+        "start" : 1555523238721,
+        "stop" : 1555523238856,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "7a7e9efa60f2be58",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555522801061,
+        "stop" : 1555522801063,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "97fb2f33d51c306b",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555517159944,
+        "stop" : 1555517159946,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3b7f2b08c7362ca",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555511482357,
+        "stop" : 1555511482358,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "89810662d3f5796e",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555511345375,
+        "stop" : 1555511345376,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "93e86f6c479e67c2",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555511287483,
+        "stop" : 1555511287484,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "43fc076028a794cb",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555511004647,
+        "stop" : 1555511004648,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2967379437c759db",
+      "status" : "broken",
+      "statusDetails" : "Step \"I should should login to my facebook account\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1555510861417,
+        "stop" : 1555510861418,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a78ee3a454194042.json",
+  "parameterValues" : [ "chrome" ]
+}

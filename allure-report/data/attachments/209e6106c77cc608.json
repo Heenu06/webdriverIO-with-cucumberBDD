@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//*[@class=\"foot-brand center-block img-responsive\"]"
+}

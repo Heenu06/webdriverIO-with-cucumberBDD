@@ -1,0 +1,116 @@
+{
+  "uid" : "a29d017afbcb69dc",
+  "name" : "I am on the search page",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I am on the search page",
+  "historyId" : "ae47cbed819c776c219fc126fa8813ad",
+  "time" : {
+    "start" : 1555491600512,
+    "stop" : 1555491600512,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I am on the search page\" is ambiguous. The following steps matched the step definition",
+  "statusTrace" : "/^I am on the search page$/ in /Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:10\n                /^I am on the search page$/ in /Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/given.js:21",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the search page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "548e47d4762faf2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452847975,
+        "stop" : 1555452849343,
+        "duration" : 1368
+      }
+    }, {
+      "uid" : "5ebe0d5918110631",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452639354,
+        "stop" : 1555452641128,
+        "duration" : 1774
+      }
+    }, {
+      "uid" : "6100306eab63cda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452483058,
+        "stop" : 1555452484617,
+        "duration" : 1559
+      }
+    }, {
+      "uid" : "c255b16e9f74e77c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555452337900,
+        "stop" : 1555452339353,
+        "duration" : 1453
+      }
+    }, {
+      "uid" : "3a61edd57a2b3414",
+      "status" : "failed",
+      "statusDetails" : "expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'",
+      "time" : {
+        "start" : 1555451715435,
+        "stop" : 1555451716675,
+        "duration" : 1240
+      }
+    }, {
+      "uid" : "5412fb8b8f04e94c",
+      "status" : "failed",
+      "statusDetails" : "expected 'Yahoo is now part of Oath' to equal 'Yahoo Search - Web Search'",
+      "time" : {
+        "start" : 1555446578050,
+        "stop" : 1555446579205,
+        "duration" : 1155
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a29d017afbcb69dc.json",
+  "parameterValues" : [ "chrome" ]
+}

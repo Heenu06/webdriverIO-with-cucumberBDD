@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"browserName\":\"chrome\",\"maxInstances\":\"5\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/google-search.feature\"]" ],
+  "name" : "spec files"
+} ]

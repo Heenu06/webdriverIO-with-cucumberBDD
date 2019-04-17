@@ -1,0 +1,224 @@
+{
+  "uid" : "525809a2b81f2db2",
+  "name" : "I should see a list of search results",
+  "fullName" : "Performing a google Search Performing a search operation with passing test data as data table.I should see a list of search results",
+  "historyId" : "1c524b0737878a60f73bf885fc3aaf96",
+  "time" : {
+    "start" : 1555495109133,
+    "stop" : 1555495110597,
+    "duration" : 1464
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#results\") still not visible after 1000ms",
+  "statusTrace" : "Error: element (\"#results\") still not visible after 1000ms\n                    at elements(\"#results\") - isVisible.js:54:17\n                    at isVisible(\"#results\") - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#results\") still not visible after 1000ms",
+    "statusTrace" : "Error: element (\"#results\") still not visible after 1000ms\n                    at elements(\"#results\") - isVisible.js:54:17\n                    at isVisible(\"#results\") - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/element",
+      "time" : {
+        "start" : 1555495109135,
+        "stop" : 1555495109167,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9032db98311e30a",
+        "name" : "Request",
+        "source" : "e9032db98311e30a.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "10307d17d47d556b",
+        "name" : "Response",
+        "source" : "10307d17d47d556b.json",
+        "type" : "application/json",
+        "size" : 599
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements",
+      "time" : {
+        "start" : 1555495109174,
+        "stop" : 1555495109201,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e48853f08229762b",
+        "name" : "Request",
+        "source" : "e48853f08229762b.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "6dcc1a9e475fd4fd",
+        "name" : "Response",
+        "source" : "6dcc1a9e475fd4fd.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements",
+      "time" : {
+        "start" : 1555495109675,
+        "stop" : 1555495109692,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4a71c8e99f7c08e",
+        "name" : "Request",
+        "source" : "a4a71c8e99f7c08e.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "7d48b181cb3a8971",
+        "name" : "Response",
+        "source" : "7d48b181cb3a8971.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/elements",
+      "time" : {
+        "start" : 1555495110174,
+        "stop" : 1555495110597,
+        "duration" : 423
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"#results\") still not visible after 1000ms\n                    at elements(\"#results\") - isVisible.js:54:17\n                    at isVisible(\"#results\") - waitForVisible.js:73:22",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/39b4bace2e83acd27035b9abd7e7354d/screenshot",
+        "time" : {
+          "start" : 1555495110181,
+          "stop" : 1555495110193,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a907ea2d9aaf9260",
+          "name" : "Response",
+          "source" : "a907ea2d9aaf9260.json",
+          "type" : "application/json",
+          "size" : 89
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c3690d78098037ff",
+        "name" : "Request",
+        "source" : "c3690d78098037ff.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "66e15fd2da953e53",
+        "name" : "Screenshot",
+        "source" : "66e15fd2da953e53.png",
+        "type" : "image/png",
+        "size" : 201552
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a google Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see a list of search results"
+  }, {
+    "name" : "package",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2fb88839926ad48",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1555495048934,
+        "stop" : 1555495048936,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6056a11d92dda70f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1555494823614,
+        "stop" : 1555494823615,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "525809a2b81f2db2.json",
+  "parameterValues" : [ "chrome" ]
+}

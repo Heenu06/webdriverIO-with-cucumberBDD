@@ -1,0 +1,58 @@
+{
+  "uid" : "b6c9dacaff27b26f",
+  "name" : "I should see the message \"Hi, Johny Smith\" on my account page",
+  "fullName" : "Performing a login Performing login operation with passing test data as data table.I should see the message \"Hi, Johny Smith\" on my account page",
+  "historyId" : "efa917493d2ce73a228773674bce039b",
+  "time" : {
+    "start" : 1555446637010,
+    "stop" : 1555446637012,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see the message \"Hi, Johny Smith\" on my account page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6c9dacaff27b26f.json",
+  "parameterValues" : [ "chrome" ]
+}

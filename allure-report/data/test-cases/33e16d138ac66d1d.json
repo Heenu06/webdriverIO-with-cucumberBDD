@@ -1,0 +1,191 @@
+{
+  "uid" : "33e16d138ac66d1d",
+  "name" : "I enter \"Cucumber BDD\" into the google search box",
+  "fullName" : "Performing a google Search Performing a search operation with passing test data as data table.I enter \"Cucumber BDD\" into the google search box",
+  "historyId" : "841a1e72f6ec5a436b4a8ffa38c520ce",
+  "time" : {
+    "start" : 1555493678632,
+    "stop" : 1555493681203,
+    "duration" : 2571
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8d23eb896b89703b1672cb210eb75655/element",
+      "time" : {
+        "start" : 1555493678635,
+        "stop" : 1555493678666,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be6edfcf622982d9",
+        "name" : "Request",
+        "source" : "be6edfcf622982d9.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "142697210e248257",
+        "name" : "Response",
+        "source" : "142697210e248257.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8d23eb896b89703b1672cb210eb75655/element/0.18842101678623346-1/clear",
+      "time" : {
+        "start" : 1555493678671,
+        "stop" : 1555493678711,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b612d375a7143ceb",
+        "name" : "Response",
+        "source" : "b612d375a7143ceb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8d23eb896b89703b1672cb210eb75655/element/0.18842101678623346-1/value",
+      "time" : {
+        "start" : 1555493678711,
+        "stop" : 1555493678930,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adb0a930b6f79d11",
+        "name" : "Request",
+        "source" : "adb0a930b6f79d11.json",
+        "type" : "application/json",
+        "size" : 207
+      }, {
+        "uid" : "386cd6fdfaa0b722",
+        "name" : "Response",
+        "source" : "386cd6fdfaa0b722.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8d23eb896b89703b1672cb210eb75655/element",
+      "time" : {
+        "start" : 1555493679937,
+        "stop" : 1555493679960,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46d103eae363d8cc",
+        "name" : "Request",
+        "source" : "46d103eae363d8cc.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "b7b57a54838def69",
+        "name" : "Response",
+        "source" : "b7b57a54838def69.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/8d23eb896b89703b1672cb210eb75655/element/0.18842101678623346-2/click",
+      "time" : {
+        "start" : 1555493679963,
+        "stop" : 1555493681201,
+        "duration" : 1238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e10358972a0dc447",
+        "name" : "Response",
+        "source" : "e10358972a0dc447.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a google Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I enter \"Cucumber BDD\" into the google search box"
+  }, {
+    "name" : "package",
+    "value" : "Performing a google Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33e16d138ac66d1d.json",
+  "parameterValues" : [ "chrome" ]
+}

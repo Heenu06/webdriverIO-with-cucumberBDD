@@ -1,0 +1,189 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555523227088' stop='1555523238860'>
+    <name>Performing a login Performing login operation</name>
+    <title>Performing a login Performing login operation</title>
+    <test-cases>
+        <test-case start='1555523227099' status='passed' stop='1555523229907'>
+            <name>I am on the facebook login page</name>
+            <title>I am on the facebook login page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555523227107' status='passed' stop='1555523228896'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/url</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='afa4f0ed-e7f3-4f7d-a1dd-2d8a2dcb00a0-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='8deb2ab6-05ca-43e2-81bb-ac9d891465e7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555523229910' status='passed' stop='1555523238719'>
+            <name>I enter username and password "heenu_rocking@yahoo.com" "obey@GOD11me" into the text box</name>
+            <title>I enter username and password "heenu_rocking@yahoo.com" "obey@GOD11me" into the text box</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555523229914' status='passed' stop='1555523229944'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='532dfcdd-7878-4ef7-8f7b-a377c3f407ce-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='13cfc42a-67fe-48c6-a35e-c4f8783cd395-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523229949' status='passed' stop='1555523229984'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-1/clear</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='48222fe7-4287-40c1-858e-fa355b36ac29-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523229984' status='passed' stop='1555523230369'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-1/value</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c0c9c598-92b9-4640-ac9f-4ccdb2c46891-attachment.json' type='application/json' size='361'/>
+                        <attachment title='Response' source='6ca002c8-963d-498e-841e-dd7859ba2e50-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523230372' status='passed' stop='1555523230398'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='25c3cf91-3bb6-458f-a293-6b17319c251c-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='54768f51-0884-4a3b-aed2-9efee7d9dfd7-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523230401' status='passed' stop='1555523230437'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-2/clear</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='2bbb5e5e-55b8-40f0-b5ab-42bb0a430aa1-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523230437' status='passed' stop='1555523230585'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-2/value</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c586b437-f1bf-4800-b499-44ef0bfb098c-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='982827e4-49ea-47cb-8079-39081373f21c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523230587' status='passed' stop='1555523230612'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1983662d-8282-44ff-b4b2-f9954544da1d-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='9a6a86c4-9855-45a8-b3f1-14d90d37a235-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523230616' status='passed' stop='1555523236720'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-3/click</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.6929444127407625-3/click</title>
+                    <attachments>
+                        <attachment title='Response' source='89e01fee-e6ff-4eab-bd33-a938cc20dac8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555523238721' status='broken' stop='1555523238856'>
+            <name>I should should login to my facebook account</name>
+            <title>I should should login to my facebook account</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555523238723' status='passed' stop='1555523238763'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0a30f0b1-c9c7-4227-be96-32c2993501a6-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='e9429212-12f8-4c15-afe6-9ce176a34f24-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523238772' status='passed' stop='1555523238796'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/elements</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='18cf9dde-8884-4130-bcf0-45ca381252a7-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='7fc79643-d727-4d6a-a717-57f772fafa7d-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523238797' status='passed' stop='1555523238814'>
+                    <name>GET /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.21693559892561431-1/displayed</name>
+                    <title>GET /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.21693559892561431-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='3d3b80fe-9989-48ba-8c82-5d7141bb1c65-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523238815' status='passed' stop='1555523238832'>
+                    <name>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</name>
+                    <title>POST /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='88972e45-4603-4519-9937-7e72398ab331-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='e04b2961-7de6-4b4c-9def-d092141f0708-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1555523238835' status='passed' stop='1555523238847'>
+                    <name>GET /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.21693559892561431-1/displayed</name>
+                    <title>GET /wd/hub/session/c6d2b0fc3b669fa5cbfaba02b2378a9c/element/0.21693559892561431-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='71257fa7-9155-4349-8dbc-1e47d03a90f0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_facebookLogin2.default.getAccount(...).should.be.true is not a function</message>
+                <stack-trace>TypeError: _facebookLogin2.default.getAccount(...).should.be.true is not a function
+                    at World.&lt;anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/then.js:28:5)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

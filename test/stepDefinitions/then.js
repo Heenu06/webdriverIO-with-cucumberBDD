@@ -3,6 +3,7 @@ import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
 import myAccount from '../pageobjects/login_phptravels.page';
 import googlePage from '../pageobjects/google-search.page';
+import facebookPage from '../pageobjects/facebook-login.page';
 
 defineSupportCode(function({ Then }) {
   // *** belongs to Yahoo search feature
@@ -21,6 +22,10 @@ defineSupportCode(function({ Then }) {
     googlePage.getResults().should.be.true;
   });
 
-
+  // *** belongs to facebook feature
+  Then(/^I should should login to my facebook account$/,function()
+  {
+    facebookPage.getAccount().should.be.true;
+  });
 
 });

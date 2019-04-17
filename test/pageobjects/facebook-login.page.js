@@ -13,6 +13,9 @@ class facebookLogin extends Page {
     get loginButton() {
         return browser.element('//*[@id="loginbutton"]');
     }
+    get accountDetails(){
+        return browser.element('//*[@id="bluebarRoot"]');
+    }
 
     login()
     {
@@ -28,6 +31,12 @@ class facebookLogin extends Page {
         this.loginButton.click();
         browser.pause(2000);
 
+    }
+
+    getAccount()
+    {
+        this.accountDetails.waitForVisible(2000);
+        return this.accountDetails.isVisible();
     }
 }
 

@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1555511342724' stop='1555511345379'>
+    <name>Performing a login Performing login operation</name>
+    <title>Performing a login Performing login operation</title>
+    <test-cases>
+        <test-case start='1555511342740' status='passed' stop='1555511345369'>
+            <name>I am on the facebook login page</name>
+            <title>I am on the facebook login page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1555511342749' status='passed' stop='1555511344357'>
+                    <name>POST /wd/hub/session/a65cc99ec4c08a20791373e72b65cfa8/url</name>
+                    <title>POST /wd/hub/session/a65cc99ec4c08a20791373e72b65cfa8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b9e2433d-f43f-489a-a4d6-7b187b3316b2-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='21bd9666-2fa3-4289-8798-776c6657d3a7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1555511345372' status='broken' stop='1555511345373'>
+            <name>I login to facebook with username and password "heenu_rocking@yahoo.com" "obey@GOD11me" on facebook page</name>
+            <title>I login to facebook with username and password "heenu_rocking@yahoo.com" "obey@GOD11me" on facebook page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I login to facebook with username and password "heenu_rocking@yahoo.com" "obey@GOD11me" on facebook page" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature:12</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1555511345375' status='broken' stop='1555511345376'>
+            <name>I should should login to my facebook account</name>
+            <title>I should should login to my facebook account</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should should login to my facebook account" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/facebook-login.feature:13</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

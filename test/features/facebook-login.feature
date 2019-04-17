@@ -9,10 +9,10 @@ Feature: Performing a login
 
   Scenario Outline: Performing login operation
     Given I am on the facebook login page
-    #When I login with username and password <user> <password> into the text box
-    #ßThen I should see the message "Hi, Johny Smith" on my account page
+    When I enter username and password <user> <password> into the text box
+    Then I should should login to my facebook account
 
     Examples:
       |user| |password|
-      |"user@phptravels.com"| |"demouser"|
+      |"heenu_rocking@yahoo.com"| |"obey@GOD11me"|
 

@@ -3,7 +3,7 @@ import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
 import loginPage from '../pageobjects/login_phptravels.page';
 import googlePage from '../pageobjects/google-search.page';
-
+import facebookPage from '../pageobjects/facebook-login.page'
 defineSupportCode(function({ When }) {
   // *** belongs to Yahoo search feature
   When(/^I enter "([^"]*)" into the search box$/, function(arg1) {
@@ -28,5 +28,11 @@ defineSupportCode(function({ When }) {
   When(/^I click the google search button$/, function(){
     googlePage.search();
   })
+
+  // *** belongs to facebook login feature
+  When(/^I enter username and password "([^"]*)" "([^"]*)" into the text box$/, function(arg1, arg2) {
+        facebookPage.accountLogin(arg1, arg2);
+      });
+
 
 });

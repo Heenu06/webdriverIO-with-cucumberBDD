@@ -46,7 +46,8 @@
     "wdio-json-reporter": "^0.1.1",
     "wdio-junit-reporter": "0.0.2",
     "wdio-spec-reporter": "^0.1.2",
-    "webdriverio": "^4.8.0"
+    "webdriverio": "^4.8.0",
+    "@wdio/allure-reporter": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^1.10.3",

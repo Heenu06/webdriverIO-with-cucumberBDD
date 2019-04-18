@@ -36,5 +36,8 @@ defineSupportCode(function({ Then }) {
     facebookPage.searchFor(name);
   });
 
+  Then(/^I should be able to send request$/, function(){
+    facebookPage.sendRequest();
+  });
 
 });

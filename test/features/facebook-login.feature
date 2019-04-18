@@ -10,8 +10,9 @@ Feature: Performing a login
     When I enter username and password <user> <password> into the text box
     Then I should login to my facebook account
     And  I should search for friends into search box <friend>
+    And I should be able to send request
 
     Examples:
       |user| |password|friend|
-      |"heenu_rocking@yahoo.com"| |"obey@GOD11me"|"Tripta Pathak"|
+      |"heenu_rocking@yahoo.com"| |"obey@GOD11me"|"Neha Garg"|
 

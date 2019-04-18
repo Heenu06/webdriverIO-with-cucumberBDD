@@ -22,6 +22,9 @@ class facebookLogin extends Page {
     get searchButton() {
         return browser.element('//*[@class="_585_"]');
     }
+    get sendReq(){
+        return browser.element('//button[@class="_42ft _4jy0 FriendRequestAdd addButton _4jy3 _517h _51sy"]');
+    }
 
 
 
@@ -51,8 +54,15 @@ class facebookLogin extends Page {
     searchFor(name)
     {
         this.searchBox.setValue(name);
-        browser.pause(1000);
+        browser.pause(2000);
         this.searchButton.click();
+
+
+    }
+    sendRequest()
+    {
+        browser.pause(2000);
+        this.sendReq.click();
 
     }
 }

@@ -3,7 +3,8 @@ import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
 import loginPage from '../pageobjects/login_phptravels.page';
 import googlePage from '../pageobjects/google-search.page';
-import facebookPage from '../pageobjects/facebook-login.page'
+import facebookPage from '../pageobjects/facebook-login.page';
+
 defineSupportCode(function({ When }) {
   // *** belongs to Yahoo search feature
   When(/^I enter "([^"]*)" into the search box$/, function(arg1) {

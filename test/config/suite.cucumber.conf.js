@@ -3,7 +3,7 @@ const defaultTimeoutInterval = process.env.DEBUG ? (60 * 60 * 500) : 90000;
 exports.config = {
 
     specs: [
-        './test/features/facebook-login.feature',
+        './test/features/facebook-login.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -147,7 +147,7 @@ exports.config = {
     reporterOptions: {
         junit:  {outputDir: './test/reports/junit-results/'},
         json:   {outputDir: './test/reports/json-results/'},
-        allure: {
+       allure: {
           outputDir:   './test/reports/allure-results/',
           disableWebdriverStepsReporting: false,
           useCucumberStepReporter: false,

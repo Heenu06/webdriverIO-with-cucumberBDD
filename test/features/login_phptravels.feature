@@ -11,8 +11,9 @@ Feature: Performing a login
         Given I am on the phptravels page
         When I login with username and password <user> <password> into the text box
         Then I should see the message "Hi, Johny Smith" on my account page
+       # Then I should logout from my account
 
         Examples:
         |user| |password|
         |"user@phptravels.com"| |"demouser"|
-        
+      #  |"user@phptravels.com"| |"demouser1"|

@@ -16,6 +16,14 @@ class facebookLogin extends Page {
     get accountDetails(){
         return browser.element('//*[@id="bluebarRoot"]');
     }
+    get searchBox() {
+        return browser.element('//*[@name="q"]');
+    }
+    get searchButton() {
+        return browser.element('//*[@class="_585_"]');
+    }
+
+
 
     login()
     {
@@ -35,8 +43,17 @@ class facebookLogin extends Page {
 
     getAccount()
     {
+
         this.accountDetails.waitForVisible(2000);
         return this.accountDetails.isVisible();
+    }
+
+    searchFor(name)
+    {
+        this.searchBox.setValue(name);
+        browser.pause(1000);
+        this.searchButton.click();
+
     }
 }
 

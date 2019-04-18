@@ -14,7 +14,11 @@ defineSupportCode(function({ Then }) {
   // *** belongs to php travels-loging  feature
   Then(/^I should see the message "([^"]*)" on my account page$/, function(message) {
     myAccount.getUserInfo().should.equal(message);
+   // myAccount.logout();
   });
+  //Then(/^I should logout from my account$/,function(){
+  //
+  //});
 
   //*** belongs to google search feature
   Then(/^I should see a list of search results on google page$/, function()
@@ -23,9 +27,14 @@ defineSupportCode(function({ Then }) {
   });
 
   // *** belongs to facebook feature
-  Then(/^I should should login to my facebook account$/,function()
+  Then(/^I should login to my facebook account$/,function()
   {
     facebookPage.getAccount().should.be.true;
   });
+
+  Then(/^I should search for friends into search box "([^"]*)"$/, function(name){
+    facebookPage.searchFor(name);
+  });
+
 
 });

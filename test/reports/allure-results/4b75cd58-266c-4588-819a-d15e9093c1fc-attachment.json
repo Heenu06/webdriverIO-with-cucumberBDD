@@ -1,4 +1,0 @@
-{
-    "using": "xpath",
-    "value": "//*[@class=\"title go-text-right\"]"
-}

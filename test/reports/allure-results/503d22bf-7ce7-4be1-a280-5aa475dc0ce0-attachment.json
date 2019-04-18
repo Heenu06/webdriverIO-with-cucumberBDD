@@ -1,9 +1,0 @@
-{
-    "message": "java.net.SocketException: Connection reset by peer (connect failed)",
-    "type": "RuntimeError",
-    "seleniumStack": {
-        "type": "UnknownError",
-        "message": "An unknown server-side error occurred while processing the command.",
-        "orgStatusMessage": "java.net.SocketException: Connection reset by peer (connect failed)"
-    }
-}

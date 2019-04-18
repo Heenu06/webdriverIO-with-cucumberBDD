@@ -12,7 +12,8 @@ class LoginPage extends Page {
     get loginButton()     { return browser.element('//button[contains(., "Login")]'); }
     get footerImage()     { return browser.element('//*[@class="hidden-xs hidden-sm"]'); }
     get accountMessage () { return browser.element('//div/h3[contains(., "Hi, Johny Smith")]'); }
-
+    get dropdownButton() { return browser.element('//div/ul/li[@class="open"]'); }
+   // get logoutButton() {return browser.element(by.model('dropdown-menu')).$('[value="Logout"]').click();}
     /**
      * define or overwrite page methods
      */
@@ -40,7 +41,19 @@ class LoginPage extends Page {
     }
 
     getUserInfo (){
+
+       // $("dropdown-menu" ).selectByIndex(1);
+        this.dropdownButton.click();
+        browser.pause(2000);
         return this.accountMessage.getText();
+    }
+
+    logout(){
+        //select('orderProp').option('Alphabetical')
+
+
+
+
     }
 }
 

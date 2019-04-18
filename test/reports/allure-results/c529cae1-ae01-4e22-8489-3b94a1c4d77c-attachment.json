@@ -1,4 +1,0 @@
-{
-    "using": "xpath",
-    "value": "//div/h3[contains(., \"Hi, Johny Smith\")]"
-}

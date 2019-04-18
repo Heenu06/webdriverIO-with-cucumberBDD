@@ -1,4 +1,0 @@
-{
-    "using": "xpath",
-    "value": "//*[@class=\"wow fadeIn col-xs-4 col-md-3 footer-nav go-right\"]"
-}

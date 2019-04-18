@@ -1,9 +1,0 @@
-{
-    "message": "invalid selector: Unable to locate an element with the xpath expression //*[@name=\"q\" because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@name=\"q\"' is not a valid XPath expression.",
-    "type": "RuntimeError",
-    "seleniumStack": {
-        "type": "InvalidSelector",
-        "message": "Argument was an invalid selector (e.g. XPath/CSS).",
-        "orgStatusMessage": "invalid selector: Unable to locate an element with the xpath expression //*[@name=\"q\" because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@name=\"q\"' is not a valid XPath expression.\n  (Session info: chrome=73.0.3683.103)\n  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.3 x86_64)"
-    }
-}

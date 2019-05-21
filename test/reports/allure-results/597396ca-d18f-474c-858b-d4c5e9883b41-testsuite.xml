@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1557150411495' stop='1557150416369'>
+    <name>Create account Sending a yahoo mail</name>
+    <title>Create account Sending a yahoo mail</title>
+    <test-cases>
+        <test-case start='1557150411500' status='passed' stop='1557150413321'>
+            <name>I am on the yahoo page</name>
+            <title>I am on the yahoo page</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a yahoo mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/yahoo_mail.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557150411510' status='passed' stop='1557150412213'>
+                    <name>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/url</name>
+                    <title>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='746a2bec-2ada-4ac9-aabd-d4ab62daf758-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='7329b53a-9110-4194-8532-70a4885d311f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557150413220' status='passed' stop='1557150413268'>
+                    <name>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element</name>
+                    <title>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='347c1575-6fb1-434f-adf5-7bed1d09ed27-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='1e246e1c-b45e-4333-9ae1-32c7a9ff4fd6-attachment.json' type='application/json' size='629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557150413287' status='passed' stop='1557150413317'>
+                    <name>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/elements</name>
+                    <title>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e73e226e-7629-4a2a-ba91-b7b0d4832758-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='e51142fd-5cdb-4711-bf8a-630d778860b4-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557150413323' status='passed' stop='1557150416356'>
+            <name>I click on create account button</name>
+            <title>I click on create account button</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a yahoo mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/yahoo_mail.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557150413324' status='passed' stop='1557150413345'>
+                    <name>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element</name>
+                    <title>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='125469ae-fe34-41ae-9794-b346e25e09a6-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='0935bd99-20a8-4a42-b252-71271fd88787-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557150413351' status='passed' stop='1557150414347'>
+                    <name>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element/0.804387077336902-1/click</name>
+                    <title>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element/0.804387077336902-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='c2743937-aad3-41fa-8a23-e8b2e133f289-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557150416358' status='broken' stop='1557150416363'>
+            <name>I should see registration form</name>
+            <title>I should see registration form</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a yahoo mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/yahoo_mail.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557150416360' status='broken' stop='1557150416363'>
+                    <name>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element</name>
+                    <title>POST /wd/hub/session/469fd640bc3d1a85edd17cc32679bbb5/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f23c0455-1da5-420a-9524-1e5a54bb9062-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                    at Function.&lt;anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/wdio-cucumber-framework/node_modules/cucumber/lib/user_code_runner.js:70:27)
+                    at Generator.next (&lt;anonymous>)
+                    at Generator.tryCatcher (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/util.js:16:23)
+                    at PromiseSpawn._promiseFulfilled (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/generators.js:97:49)
+                    at Function.&lt;anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/generators.js:201:15)
+                    at Function.run (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/wdio-cucumber-framework/node_modules/cucumber/lib/user_code_runner.js:118:22)
+                    at Object.&lt;anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/wdio-cucumber-framework/node_modules/cucumber/lib/runtime/step_runner.js:37:53)
+                    at Generator.next (&lt;anonymous>)
+                    at Generator.tryCatcher (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/util.js:16:23)
+                    at PromiseSpawn._promiseFulfilled (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/generators.js:97:49)
+                    at _drainQueueStep (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/async.js:142:12)
+                    at _drainQueue (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/async.js:131:9)
+                    at Async._drainQueues (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/async.js:147:5)
+                    at Immediate.Async.drainQueues (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/bluebird/js/release/async.js:17:14)
+                    at runCallback (timers.js:705:18)
+                    at tryOnImmediate (timers.js:676:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

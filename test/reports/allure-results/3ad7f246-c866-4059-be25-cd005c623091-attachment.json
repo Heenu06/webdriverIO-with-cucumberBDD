@@ -1,0 +1,9 @@
+{
+    "message": "no such window",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "NoSuchWindow",
+        "message": "A request to switch to a different window could not be satisfied because the window could not be found.",
+        "orgStatusMessage": "no such window\n  (Session info: chrome=74.0.3729.157)\n  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.3 x86_64)"
+    }
+}

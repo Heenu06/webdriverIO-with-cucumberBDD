@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558387149398' stop='1558387156707'>
+    <name>Opening a web page Get Current Tab ID</name>
+    <title>Opening a web page Get Current Tab ID</title>
+    <test-cases>
+        <test-case start='1558387149411' status='passed' stop='1558387156704'>
+            <name>I want to switch Tab</name>
+            <title>I want to switch Tab</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Get Current Tab ID'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558387149422' status='passed' stop='1558387152486'>
+                    <name>POST /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/url</name>
+                    <title>POST /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/url</title>
+                    <attachments>
+                        <attachment title='Request' source='709883b9-f614-430c-aa90-94da23a1e7fb-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='876f7890-228d-4ceb-8abc-968bae76d8c6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558387154514' status='passed' stop='1558387154540'>
+                    <name>GET /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/window_handle</name>
+                    <title>GET /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/window_handle</title>
+                    <attachments>
+                        <attachment title='Response' source='566a3535-a28b-483a-a7c8-f565d1b4ca52-attachment.json' type='application/json' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558387154548' status='passed' stop='1558387154630'>
+                    <name>POST /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/execute</name>
+                    <title>POST /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='1350fdf4-5ad8-4120-9b1e-bf732a91c628-attachment.json' type='application/json' size='411'/>
+                        <attachment title='Response' source='57e6fa3b-06ef-4cc5-97d9-a61262d28b50-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558387154631' status='passed' stop='1558387154641'>
+                    <name>GET /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/window_handles</name>
+                    <title>GET /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/window_handles</title>
+                    <attachments>
+                        <attachment title='Response' source='1f3d48e8-9766-4da0-b803-05411c2b6b81-attachment.json' type='application/json' size='199'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558387154645' status='passed' stop='1558387154669'>
+                    <name>POST /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/window</name>
+                    <title>POST /wd/hub/session/4b64c8b449d40ff558d39fe95a4b6fd4/window</title>
+                    <attachments>
+                        <attachment title='Request' source='491a4d38-2452-432e-b2ff-1cc8a4e1fb2e-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='eec0b344-9f08-4a69-bc1d-ee28af05c748-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

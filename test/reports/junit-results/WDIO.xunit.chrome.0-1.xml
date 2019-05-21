@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="performing_a_google_search1" timestamp="2019-04-19T14:33:06" time="12.324" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="4f35e014767cec4f947328d41267996e"/>
+      <property name="suiteName" value="Performing a google Search1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="performing_a_search_operation_with_passing_test_data_as_data_table18" timestamp="2019-04-19T14:33:06" time="12.293" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="4f35e014767cec4f947328d41267996e"/>
+      <property name="suiteName" value="Performing a search operation with passing test data as data table18"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I am on the google search page9" time="31.372"/>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I enter &quot;Cucumber BDD&quot; into the google search box12" time="26.671"/>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I click the google search button13" time="24.457"/>
+    <testcase classname="chrome.Performing a search operation with passing test data as data table18" name="I should see a list of search results on google page14" time="19.482"/>
+  </testsuite>
+</testsuites>

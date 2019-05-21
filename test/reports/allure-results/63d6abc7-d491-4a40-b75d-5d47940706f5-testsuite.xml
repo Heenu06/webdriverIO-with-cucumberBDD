@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558358479354' stop='1558358480353'>
+    <name>Opening a web page Get Current Tab ID</name>
+    <title>Opening a web page Get Current Tab ID</title>
+    <test-cases>
+        <test-case start='1558358479357' status='broken' stop='1558358480353'>
+            <name>I want to switch Tab</name>
+            <title>I want to switch Tab</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Get Current Tab ID'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558358479358' status='passed' stop='1558358479364'>
+                    <name>GET /wd/hub/session/4bc8d56246ecc35310db2353d969e5a7/window_handle</name>
+                    <title>GET /wd/hub/session/4bc8d56246ecc35310db2353d969e5a7/window_handle</title>
+                    <attachments>
+                        <attachment title='Response' source='4958179d-2973-4e6a-9717-88c88a2bf381-attachment.json' type='application/json' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558358479367' status='passed' stop='1558358479403'>
+                    <name>POST /wd/hub/session/4bc8d56246ecc35310db2353d969e5a7/window</name>
+                    <title>POST /wd/hub/session/4bc8d56246ecc35310db2353d969e5a7/window</title>
+                    <attachments>
+                        <attachment title='Request' source='f38afb61-bb5f-479f-9486-8c8a9814c9d9-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='3ad7f246-c866-4059-be25-cd005c623091-attachment.json' type='application/json' size='455'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558358479408' status='broken' stop='1558358480353'>
+                    <name>GET /wd/hub/session/4bc8d56246ecc35310db2353d969e5a7/screenshot</name>
+                    <title>GET /wd/hub/session/4bc8d56246ecc35310db2353d969e5a7/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='277fd64d-859b-405c-b8ef-369fb02eb1a0-attachment.png' type='image/png' size='565843'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window</message>
+                <stack-trace>Error: A request to switch to a different window could not be satisfied because the window could not be found.
+                    at switchTab("CDwindow-28C6E5C6E6A775B439BFB5F2291D5865") - at window("CDwindow-28C6E5C6E6A775B439BFB5F2291D5865") - switchTab.js:28:21</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

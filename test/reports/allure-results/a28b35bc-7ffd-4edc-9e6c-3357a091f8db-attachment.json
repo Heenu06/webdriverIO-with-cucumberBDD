@@ -1,0 +1,9 @@
+{
+    "message": "unknown error: cannot determine loading status\nfrom no such execution context",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "unknown error: cannot determine loading status\nfrom no such execution context\n  (Session info: chrome=74.0.3729.157)\n  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.3 x86_64)"
+    }
+}

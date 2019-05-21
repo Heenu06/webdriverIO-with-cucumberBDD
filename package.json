@@ -33,6 +33,7 @@
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "cucumber": "^3.2.1",
+    "generate-password": "^1.4.1",
     "graceful-fs": "^4.1.4",
     "grunt": "^0.4.5",
     "grunt-webdriver": "^1.0.0",
@@ -40,6 +41,7 @@
     "lodash": "^4.17.4",
     "node-excel-to-json": "0.0.3",
     "node-inspector": "^1.1.1",
+    "random-password": "^0.1.2",
     "underscore": "^1.8.3",
     "wdio-allure-reporter": "^0.6.0",
     "wdio-dot-reporter": "0.0.5",
@@ -47,6 +49,7 @@
     "wdio-junit-reporter": "0.0.2",
     "wdio-multiple-cucumber-html-reporter": "^0.4.0",
     "wdio-spec-reporter": "^0.1.2",
+    "wdio-video-recorder": "^1.0.2",
     "webdriverio": "^4.8.0"
   },
   "devDependencies": {

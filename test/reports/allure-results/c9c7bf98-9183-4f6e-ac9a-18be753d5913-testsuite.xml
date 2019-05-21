@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558131506108' stop='1558131508512'>
+    <name>Opening a web page Open google page</name>
+    <title>Opening a web page Open google page</title>
+    <test-cases>
+        <test-case start='1558131506120' status='passed' stop='1558131508509'>
+            <name>I am on the google page</name>
+            <title>I am on the google page</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Open google page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558131506129' status='passed' stop='1558131507495'>
+                    <name>POST /wd/hub/session/a180b28b14d16c5374043357276fd03c/url</name>
+                    <title>POST /wd/hub/session/a180b28b14d16c5374043357276fd03c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fa31202c-dbc9-4f1e-b859-75adb788f0ed-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='79e9e27b-ff48-4162-b18c-f03c23a154d1-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

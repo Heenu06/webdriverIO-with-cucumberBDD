@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1557158589284' stop='1557158600466'>
+    <name>Create account Sending a gmail mail</name>
+    <title>Create account Sending a gmail mail</title>
+    <test-cases>
+        <test-case start='1557158589297' status='passed' stop='1557158592426'>
+            <name>I am on the gmail page</name>
+            <title>I am on the gmail page</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557158589306' status='passed' stop='1557158591389'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/url</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/url</title>
+                    <attachments>
+                        <attachment title='Request' source='73890e90-273b-4e31-8b87-ade546a5fa61-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='2eea3e3f-7c31-40c5-abbd-fec6c92b98fb-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158592401' status='passed' stop='1557158592420'>
+                    <name>GET /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/title</name>
+                    <title>GET /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/title</title>
+                    <attachments>
+                        <attachment title='Response' source='b65ee486-db29-4dbf-88a6-1ef710cd1446-attachment.json' type='application/json' size='94'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557158592428' status='passed' stop='1557158595093'>
+            <name>I enter username "heenupathak06@gmail.com" into the text box and click next</name>
+            <title>I enter username "heenupathak06@gmail.com" into the text box and click next</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557158592432' status='passed' stop='1557158592464'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c3367bf2-47ed-4211-b6c9-a9e514d637d7-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='43567a0e-fc6e-4a06-83c5-2e249620e8e0-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158592468' status='passed' stop='1557158592502'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-1/clear</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='ebe38fd0-d301-4740-abda-7adc3b0bae89-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158592502' status='passed' stop='1557158592798'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-1/value</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='10f81879-f7ca-4d1c-81c2-8ebc21656df0-attachment.json' type='application/json' size='361'/>
+                        <attachment title='Response' source='e72e94d9-e2cf-40e3-9ef3-12ce127aeb80-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158592798' status='passed' stop='1557158592819'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ba2ad1b5-78f1-441b-a904-182ea32f5308-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='68c4f0bf-0cc8-4817-8f72-4a72afb02477-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158592824' status='passed' stop='1557158593086'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-2/click</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='cea77266-83af-4eda-9887-1e1500ee6fb1-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557158595095' status='failed' stop='1557158600449'>
+            <name>I enter password "obey@GOD11me" into the text box and click next</name>
+            <title>I enter password "obey@GOD11me" into the text box and click next</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557158595097' status='passed' stop='1557158595122'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c255a94-4f9a-4fe3-92ca-0630f531a4fb-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='f580a5c3-a1f5-4a0e-855f-b5ba49978e73-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158595125' status='passed' stop='1557158595158'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-3/clear</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='79682965-6429-4217-9b25-dd29be0df9f0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158595158' status='passed' stop='1557158595345'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-3/value</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='5d17da24-872e-4eb4-b7d7-ecdeed6e6fb3-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='203b830d-90a3-4712-bb15-fb86d56b141b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158595349' status='passed' stop='1557158595365'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bcb061c2-9cca-463e-bd2a-d08915d6b68c-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='aed09b32-44b2-400c-abcf-98b1721d3071-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158595367' status='passed' stop='1557158595512'>
+                    <name>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-4/click</name>
+                    <title>POST /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/element/0.10713654133472206-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='4d4e46d3-cfdf-417e-b3af-f387b2522b10-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557158597519' status='passed' stop='1557158600428'>
+                    <name>GET /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/title</name>
+                    <title>GET /wd/hub/session/ccec5ca58936a67f90aedf9fb1d235f0/title</title>
+                    <attachments>
+                        <attachment title='Response' source='84eacca2-2f1a-49b9-a822-46f5a05bb386-attachment.json' type='application/json' size='133'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'Inbox (91) - heenupathak06@gmail.com - Gmail' to equal 'Gmail'</message>
+                <stack-trace>AssertionError: expected 'Inbox (91) - heenupathak06@gmail.com - Gmail' to equal 'Gmail'
+                    at World.&lt;anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/when.js:53:31)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1557158600451' status='broken' stop='1557158600453'>
+            <name>I click on compose button</name>
+            <title>I click on compose button</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on compose button" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature:14</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1557158600458' status='broken' stop='1557158600460'>
+            <name>should see the message "Hi, Johny Smith" on my account page</name>
+            <title>should see the message "Hi, Johny Smith" on my account page</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "should see the message "Hi, Johny Smith" on my account page" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature:15</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

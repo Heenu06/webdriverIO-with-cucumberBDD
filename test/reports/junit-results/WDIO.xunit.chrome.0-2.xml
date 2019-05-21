@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="performing_a_login1" timestamp="2019-04-19T14:33:06" time="31.162" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="6e5995cf93ed47d729d3b9a5029c5222"/>
+      <property name="suiteName" value="Performing a login1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="performing_login_operation_with_passing_test_data_as_data_table18" timestamp="2019-04-19T14:33:06" time="31.143" tests="3" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="6e5995cf93ed47d729d3b9a5029c5222"/>
+      <property name="suiteName" value="Performing login operation with passing test data as data table18"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing login operation with passing test data as data table18" name="I am on the phptravels page11" time="31.382"/>
+    <testcase classname="chrome.Performing login operation with passing test data as data table18" name="I login with username and password &quot;user@phptravels.com&quot; &quot;demouser&quot; into the text box12" time="22.266"/>
+    <testcase classname="chrome.Performing login operation with passing test data as data table18" name="I should see the message &quot;Hi, Johny Smith&quot; on my account page13" time="17.253">
+      <error message="&#xA;expected true to equal 'Hi, Johny Smith'&#xA;"/>
+      <system-err>
+        <![CDATA[
+AssertionError: expected true to equal 'Hi, Johny Smith'
+    at World.<anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/then.js:16:36)
+    at new Promise (<anonymous>)
+    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

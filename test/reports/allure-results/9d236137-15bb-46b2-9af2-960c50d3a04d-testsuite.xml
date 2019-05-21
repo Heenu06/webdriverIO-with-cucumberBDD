@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1557151000170' stop='1557151005127'>
+    <name>Create account Sending a yahoo mail</name>
+    <title>Create account Sending a yahoo mail</title>
+    <test-cases>
+        <test-case start='1557151000178' status='passed' stop='1557151002249'>
+            <name>I am on the yahoo page</name>
+            <title>I am on the yahoo page</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a yahoo mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/yahoo_mail.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557151000194' status='passed' stop='1557151001166'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/url</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/url</title>
+                    <attachments>
+                        <attachment title='Request' source='053d3f04-2e50-4202-abd0-f419ef21a89f-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='df8df6cc-fb4c-4461-8adc-5c8fa5c0b778-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557151002181' status='passed' stop='1557151002221'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c2e2a3f-faca-4e37-bec7-a6cf4c06f421-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='5022c665-92f6-4554-b774-7a8551ae0221-attachment.json' type='application/json' size='629'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557151002226' status='passed' stop='1557151002246'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/elements</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1d24dc0e-2807-4173-8777-521e97eb0cd3-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='e3412d42-9554-4f70-a19e-1164315dcf63-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557151002251' status='passed' stop='1557151005071'>
+            <name>I click on create account button</name>
+            <title>I click on create account button</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a yahoo mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/yahoo_mail.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557151002252' status='passed' stop='1557151002272'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element</title>
+                    <attachments>
+                        <attachment title='Request' source='07577957-81e0-47f0-ab1e-3bb466dec829-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='18f07b90-ee52-4aeb-91b9-2ba8d658c43f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557151002277' status='passed' stop='1557151003064'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element/0.4366801943259033-1/click</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element/0.4366801943259033-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='fd45190f-f2aa-4a99-8ad2-3020e1a697ea-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557151005074' status='broken' stop='1557151005123'>
+            <name>I should see registration form</name>
+            <title>I should see registration form</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a yahoo mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/yahoo_mail.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557151005076' status='passed' stop='1557151005098'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/element</title>
+                    <attachments>
+                        <attachment title='Request' source='430d7b0d-d9cf-49c1-b4e7-f0c13fff6a68-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='a1d40b87-afa6-48e5-9b6a-ba4e2cb16e61-attachment.json' type='application/json' size='617'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557151005101' status='passed' stop='1557151005119'>
+                    <name>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/elements</name>
+                    <title>POST /wd/hub/session/755b87db7968e596d8be7439c119df91/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8fcd5e67-5dd5-43a2-a252-1c42fe1ccc80-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='90a09dd0-a76f-435b-b7d1-c605e473959f-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'should' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'should' of undefined
+                    at World.&lt;anonymous> (/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/stepDefinitions/then.js:38:5)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/pankaj/github/webdriverIO-with-cucumberBDD/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

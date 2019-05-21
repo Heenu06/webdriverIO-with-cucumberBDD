@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558116096113' stop='1558116096114'>
+    <name>Opening a web page Open yahoo login page</name>
+    <title>Opening a web page Open yahoo login page</title>
+    <test-cases>
+        <test-case start='1558116096113' status='broken' stop='1558116096114'>
+            <name>I am on the yahoo login page</name>
+            <title>I am on the yahoo login page</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Open yahoo login page'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the yahoo login page" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature:14</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,39 +1,34 @@
 
 import { defineSupportCode } from 'cucumber';
-import yahooPage from '../pageobjects/yahoo-search.page';
-import loginPage from '../pageobjects/login_phptravels.page';
-import googlePage from '../pageobjects/google-search.page';
-import facebookPage from '../pageobjects/facebook-login.page';
+
+import gmailLogin from '../pageobjects/gmail-login.page';
 
 defineSupportCode(function({ When }) {
-  // *** belongs to Yahoo search feature
-  When(/^I enter "([^"]*)" into the search box$/, function(arg1) {
-    yahooPage.enterText(arg1);
-    yahooPage.searchInput.getValue().should.equal(arg1);
+
+
+  // *** belongs to gmail login feature
+  When(/^I enter username "([^"]*)" into the text box and click next$/, function(arg1) {
+    gmailLogin.enterUsername(arg1);
   });
 
-  When(/^I click the search button$/, function() {
-    yahooPage.search();
+  When(/^I enter password "([^"]*)" into the text box and click next$/, function(arg1) {
+    gmailLogin.enterPassword(arg1);
+    //browser.getTitle().should.equal('Gmail');
   });
 
-  // *** belongs to php travels-loging  feature
-  When(/^I login with username and password "([^"]*)" "([^"]*)" into the text box$/, function(arg1, arg2) {
-    loginPage.login(arg1, arg2);    // entering user name, password and and submiting the page
-  });
-
-  // *** belongs to google search feature
-  When(/^I enter "([^"]*)" into the google search box$/, function(arg1) {
-    googlePage.enterText(arg1);
+  When(/^I click on compose button$/, function() {
+    gmailLogin.composeMail();
 
   });
-  When(/^I click the google search button$/, function(){
-    googlePage.search();
-  })
 
-  // *** belongs to facebook login feature
-  When(/^I enter username and password "([^"]*)" "([^"]*)" into the text box$/, function(arg1, arg2) {
-        facebookPage.accountLogin(arg1, arg2);
-      });
+  When(/^I enter TO email id "([^"]*)" and subject "([^"]*)" and "([^"]*)"$/, function(arg1, arg2, arg3) {
+    gmailLogin.sendMail(arg1, arg2, arg3);
+
+  });
+
+
+
+
 
 
 });

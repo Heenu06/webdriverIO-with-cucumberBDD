@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="performing_a_login1" timestamp="2019-04-18T18:23:14" time="19.528" tests="0" failures="0" errors="0" skipped="0">
+  <testsuite name="send_an_email1" timestamp="2019-05-21T18:53:59" time="24.491" tests="0" failures="0" errors="0" skipped="0">
     <properties>
-      <property name="specId" value="11dfc075f7da4bf0784a8cb2b4afdf54"/>
-      <property name="suiteName" value="Performing a login1"/>
+      <property name="specId" value="053245a6cc36db7a1d9d5297ad75569d"/>
+      <property name="suiteName" value="send an email1"/>
       <property name="capabilities" value="chrome"/>
     </properties>
   </testsuite>
-  <testsuite name="performing_login_operation17" timestamp="2019-04-18T18:23:14" time="19.492" tests="5" failures="0" errors="0" skipped="0">
+  <testsuite name="sending_an_email21" timestamp="2019-05-21T18:53:59" time="24.455" tests="6" failures="0" errors="0" skipped="0">
     <properties>
-      <property name="specId" value="11dfc075f7da4bf0784a8cb2b4afdf54"/>
-      <property name="suiteName" value="Performing login operation17"/>
+      <property name="specId" value="053245a6cc36db7a1d9d5297ad75569d"/>
+      <property name="suiteName" value="Sending an email21"/>
       <property name="capabilities" value="chrome"/>
     </properties>
-    <testcase classname="chrome.Performing login operation17" name="I am on the facebook login page9" time="19.77"/>
-    <testcase classname="chrome.Performing login operation17" name="I enter username and password &quot;heenu_rocking@yahoo.com&quot; &quot;obey@GOD11me&quot; into the text box10" time="16.538"/>
-    <testcase classname="chrome.Performing login operation17" name="I should login to my facebook account11" time="5.263"/>
-    <testcase classname="chrome.Performing login operation17" name="I should search for friends into search box &quot;Neha Garg&quot;12" time="5.146"/>
-    <testcase classname="chrome.Performing login operation17" name="I should be able to send request13" time="2.449"/>
+    <testcase classname="chrome.Sending an email21" name="I am on the gmail page11" time="24.741"/>
+    <testcase classname="chrome.Sending an email21" name="I enter username &quot;heenupathak06@gmail.com&quot; into the text box and click next12" time="21.289"/>
+    <testcase classname="chrome.Sending an email21" name="I enter password &quot;obey@GOD11me&quot; into the text box and click next13" time="18.52"/>
+    <testcase classname="chrome.Sending an email21" name="I click on compose button14" time="16.094"/>
+    <testcase classname="chrome.Sending an email21" name="I enter TO email id &quot;heenu_rocking@yahoo.com&quot; and subject &quot;Testing&quot; and &quot;This mail is for testing purpose&quot;15" time="10.051"/>
+    <testcase classname="chrome.Sending an email21" name="email should sent successfully16" time="0.325"/>
   </testsuite>
 </testsuites>

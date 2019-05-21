@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558388464404' stop='1558388475458'>
+    <name>Opening a web page Uploading a file</name>
+    <title>Opening a web page Uploading a file</title>
+    <test-cases>
+        <test-case start='1558388464409' status='broken' stop='1558388475457'>
+            <name>I am on the monster page</name>
+            <title>I am on the monster page</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Uploading a file'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558388464434' status='passed' stop='1558388468310'>
+                    <name>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/url</name>
+                    <title>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='503a141a-fdfc-4743-ad6e-675970eb9b13-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='df178d1d-13d7-4d19-b856-0718c5031555-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558388469324' status='passed' stop='1558388469360'>
+                    <name>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/element</name>
+                    <title>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f10375d-ea13-4b36-abf8-0fa0442fc1a0-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='1f518a61-f879-4348-8cf2-2e4d4c7247af-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558388469366' status='passed' stop='1558388472376'>
+                    <name>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/element/0.9255257471694733-1/click</name>
+                    <title>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/element/0.9255257471694733-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='374cd200-75e0-45db-827a-9a8645b3ae97-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558388473389' status='passed' stop='1558388473424'>
+                    <name>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/elements</name>
+                    <title>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f7e02a88-8aff-4da6-85b5-210b555217e7-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='8706b106-2abe-4fe4-8e34-848c8b91b836-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558388474501' status='passed' stop='1558388474543'>
+                    <name>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/file</name>
+                    <title>POST /wd/hub/session/b81478eabccad17858eba5cd505a611c/file</title>
+                    <attachments>
+                        <attachment title='Request' source='f423c16c-29dc-4139-90f1-725f6596a4a0-attachment.json' type='application/json' size='526'/>
+                        <attachment title='Response' source='9fd61c7d-3988-4912-82b2-86e9150505f7-attachment.json' type='application/json' size='280'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558388474552' status='broken' stop='1558388475456'>
+                    <name>GET /wd/hub/session/b81478eabccad17858eba5cd505a611c/screenshot</name>
+                    <title>GET /wd/hub/session/b81478eabccad17858eba5cd505a611c/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0be3c30d-5d1e-4fb8-b841-fbe9faa522b7-attachment.png' type='image/png' size='568806'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>selector needs to be typeof `string`</message>
+                <stack-trace>Error: selector needs to be typeof `string`
+                    at click() - at element() - click.js:12:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

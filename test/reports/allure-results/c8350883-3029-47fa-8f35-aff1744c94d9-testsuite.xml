@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558300188550' stop='1558300188612'>
+    <name>Opening a web page Get Current Tab ID</name>
+    <title>Opening a web page Get Current Tab ID</title>
+    <test-cases>
+        <test-case start='1558300188565' status='passed' stop='1558300188611'>
+            <name>I want to get current Tab ID</name>
+            <title>I want to get current Tab ID</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Get Current Tab ID'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558300188573' status='passed' stop='1558300188610'>
+                    <name>GET /wd/hub/session/93bd53fba557ea3633531f3fc8c1c714/window_handle</name>
+                    <title>GET /wd/hub/session/93bd53fba557ea3633531f3fc8c1c714/window_handle</title>
+                    <attachments>
+                        <attachment title='Response' source='fdef4a80-2ec8-467a-8493-0db9bb9451ef-attachment.json' type='application/json' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

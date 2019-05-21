@@ -1,0 +1,317 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1557163643392' stop='1557163662965'>
+    <name>Create account Sending a gmail mail</name>
+    <title>Create account Sending a gmail mail</title>
+    <test-cases>
+        <test-case start='1557163643405' status='passed' stop='1557163646521'>
+            <name>I am on the gmail page</name>
+            <title>I am on the gmail page</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557163643415' status='passed' stop='1557163645484'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/url</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fa65797f-80a4-4ce7-9645-16530f86092c-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='7a2f1306-2681-4218-9423-f10041fcbf3f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163646500' status='passed' stop='1557163646520'>
+                    <name>GET /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/title</name>
+                    <title>GET /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/title</title>
+                    <attachments>
+                        <attachment title='Response' source='1147ccc5-7e99-4f55-a307-b76e9f5efd56-attachment.json' type='application/json' size='94'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557163646521' status='passed' stop='1557163649223'>
+            <name>I enter username "heenupathak06@gmail.com" into the text box and click next</name>
+            <title>I enter username "heenupathak06@gmail.com" into the text box and click next</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557163646521' status='passed' stop='1557163646547'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c702ce24-b8e1-43f4-a18b-b49056bc03d5-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='83a6e0a7-ca62-4360-9cad-52a170ca9cbe-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163646552' status='passed' stop='1557163646586'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-1/clear</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='9ad60866-abba-4652-83d6-20939a9daeeb-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163646587' status='passed' stop='1557163646880'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-1/value</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='09251375-7f26-41e8-b8b2-902639f0d813-attachment.json' type='application/json' size='361'/>
+                        <attachment title='Response' source='d8766e5f-8806-4fa4-9e19-f56359c55053-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163646884' status='passed' stop='1557163646907'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8cdd3b40-b61f-4efd-bd4a-fd911bb19e3e-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='0db6a499-9134-44a2-9309-572cb2a4342e-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163646910' status='passed' stop='1557163647214'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-2/click</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='3bbfce5b-5117-44b8-b0b1-66027f755538-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557163649226' status='passed' stop='1557163651567'>
+            <name>I enter password "obey@GOD11me" into the text box and click next</name>
+            <title>I enter password "obey@GOD11me" into the text box and click next</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557163649228' status='passed' stop='1557163649248'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='01132909-7e72-4db1-b325-6885ae994017-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='88221105-3df4-4ecd-b034-c96d3a861ed6-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163649251' status='passed' stop='1557163649282'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-3/clear</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a8763691-75ea-48f3-8348-c9c3b3cbc28e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163649282' status='passed' stop='1557163649431'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-3/value</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b66c603d-07d7-40b7-80ec-d1ccb912ec72-attachment.json' type='application/json' size='207'/>
+                        <attachment title='Response' source='23ab679c-116c-47f7-b50c-949b631a208a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163649432' status='passed' stop='1557163649441'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b56a6faa-4612-4c9b-b4d8-d633a83f7dc4-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='14c3eb40-9992-44ea-807a-fa30f1f0ce8b-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163649443' status='passed' stop='1557163649561'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-4/click</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.16528491097681308-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='eeea28ec-fc24-44cf-8236-2c2e289c507b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557163651569' status='passed' stop='1557163657352'>
+            <name>I click on compose button</name>
+            <title>I click on compose button</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557163653581' status='passed' stop='1557163654024'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='62d93ae0-56ed-43a4-8572-5ef54770307c-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='e6e18042-5d9f-4156-8696-770a14648499-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163654028' status='passed' stop='1557163655343'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-1/click</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='fee20c4a-0260-4cca-ade5-7ed0074016a7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557163657355' status='broken' stop='1557163662965'>
+            <name>I enter TO email id "heenu_rocking@yahoo.com" and subject "Testing" and "This mail is for testing purpose"</name>
+            <title>I enter TO email id "heenu_rocking@yahoo.com" and subject "Testing" and "This mail is for testing purpose"</title>
+            <labels>
+                <label name='feature' value='Create account'/>
+                <label name='story' value='Sending a gmail mail'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/gmail-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1557163657358' status='passed' stop='1557163658857'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f5865713-148b-4bfb-839a-096f76dd1a4d-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='8df1e54c-f3ec-433a-86b1-6f9ae12947ea-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163658863' status='passed' stop='1557163658907'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-2/clear</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-2/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='6b4cff92-7307-4971-bb02-8980f3689e40-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163658907' status='passed' stop='1557163659175'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-2/value</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='935d6611-1f20-4040-8b95-3b1f43611b0f-attachment.json' type='application/json' size='361'/>
+                        <attachment title='Response' source='3a9c8902-7fa9-4e0c-adaf-ab7a7c07cb87-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163659179' status='passed' stop='1557163659233'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cfe378ea-70f3-43b0-b1d2-21d868ee64d5-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='734aeced-b525-4b92-8fbc-fec5b976a6b7-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163659239' status='passed' stop='1557163659316'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/clear</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='a5ab49e3-eac0-47dd-9548-56dd6bd2f9d6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163659316' status='passed' stop='1557163659456'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/value</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ca158873-d78a-4e7b-9b66-845f52f7d8a8-attachment.json' type='application/json' size='137'/>
+                        <attachment title='Response' source='74f6ebab-a177-4ec1-80d4-9df066944570-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163661462' status='passed' stop='1557163661532'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d3b15a09-b1cb-41a6-86cd-d66a4270de4a-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='f1da566f-913a-455a-8f78-b7c6d9d0a12c-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163661535' status='passed' stop='1557163661629'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/clear</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='bb90e46c-1ec1-4732-a277-8a891e2268d2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163661629' status='passed' stop='1557163662526'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/value</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element/0.33974960207153915-3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='7003a276-7791-46a7-a278-e0df6978ba5f-attachment.json' type='application/json' size='487'/>
+                        <attachment title='Response' source='35eda615-73c2-4147-89bf-d425fe4cd552-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163662530' status='passed' stop='1557163662595'>
+                    <name>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</name>
+                    <title>POST /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='463121da-c10a-4733-964f-855c5879dd5f-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='0c6e425c-da6f-41a2-9b27-c3fe25bfa5c9-attachment.json' type='application/json' size='603'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557163662596' status='broken' stop='1557163662965'>
+                    <name>GET /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/screenshot</name>
+                    <title>GET /wd/hub/session/157f001c27cf55ea64f3a66a6f428e4b/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f8353ee9-fb1c-477d-ad10-5d97342937ce-attachment.png' type='image/png' size='115068'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("/div[@id=":t6"]").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("/div[@id=":t6"]").
+                    at click() - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

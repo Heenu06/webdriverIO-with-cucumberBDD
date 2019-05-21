@@ -1,0 +1,8 @@
+{
+    "script": "return (function newWindow(url) {\n  var windowName = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'new window';\n  var windowFeatures = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';\n\n  window.open(url, windowName, windowFeatures);\n}).apply(null, arguments)",
+    "args": [
+        "https://www.wikipedia.org/",
+        "",
+        ""
+    ]
+}

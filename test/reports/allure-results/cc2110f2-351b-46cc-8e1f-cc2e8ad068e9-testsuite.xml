@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558191425668' stop='1558191436187'>
+    <name>Opening a web page Uploading a file</name>
+    <title>Opening a web page Uploading a file</title>
+    <test-cases>
+        <test-case start='1558191425672' status='broken' stop='1558191436184'>
+            <name>I am on the monster page</name>
+            <title>I am on the monster page</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Uploading a file'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558191425687' status='passed' stop='1558191429264'>
+                    <name>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/url</name>
+                    <title>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cc8806d7-e2e4-42f2-aeff-6c1f769b9e47-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='984b1d73-1173-4363-a367-ecd3d335f0bd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558191430289' status='passed' stop='1558191430319'>
+                    <name>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/element</name>
+                    <title>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='42f9b2a0-51ac-4a65-8c8d-3850335806aa-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='97608982-f1c1-4846-a578-c0ff22abedd6-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558191430325' status='passed' stop='1558191432083'>
+                    <name>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/element/0.15786209972862308-1/click</name>
+                    <title>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/element/0.15786209972862308-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='898cf521-c275-40f2-b63b-ae420d1e3dcf-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558191433101' status='passed' stop='1558191433127'>
+                    <name>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/elements</name>
+                    <title>POST /wd/hub/session/1a362b4fd031a312f887e70563e87d5a/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='808471e8-e174-4463-84f4-733d9dae4290-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='1b5bd856-b284-4a0d-8e61-d52f7c7c2d17-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>ENOENT: no such file or directory, open '/Users/pankaj/Heenu/test/Heenu_CV.docx'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open '/Users/pankaj/Heenu/test/Heenu_CV.docx'</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

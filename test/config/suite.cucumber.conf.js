@@ -3,7 +3,7 @@ const defaultTimeoutInterval = process.env.DEBUG ? (60 * 60 * 500) : 90000;
 exports.config = {
 
     specs: [
-        './test/features/facebook-login.feature'
+         './test/features/gmail-login.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -142,23 +142,23 @@ exports.config = {
     //services: ['selenium-standalone', 'phantomjs', 'appium'],
     //
     framework: 'cucumber',
-    reporters: ['spec', 'junit','allure', 'json', 'multiple-cucumber-html'],
+    reporters: ['spec', 'junit','allure', 'json'], //'multiple-cucumber-html'],
 
     reporterOptions: {
         junit:  {outputDir: './test/reports/junit-results/'},
         json:   {outputDir: './test/reports/json-results/'},
-       allure: {
+      allure: {
           outputDir:   './test/reports/allure-results/',
           disableWebdriverStepsReporting: false,
           useCucumberStepReporter: false,
         },
-        htmlReporter: {
+       /*htmlReporter: {
             jsonFolder: './test/reports/json-report/',
             reportFolder: `./test/reports/cucumber-report`,
             pageTitle: 'Multiple Cucumber HTML Reporter',
             reportName: 'Cucumber-report'
             // ... other options, see Options
-        }
+        } */
     },
 
     // If you are using Cucumber you need to specify the location of your step definitions.
@@ -178,7 +178,7 @@ exports.config = {
         source: false,      // <boolean> hide source uris
         profile: [],        // <string[]> (name) specify the profile to use
         strict: true,       // <boolean> fail if there are any undefined or pending steps
-        tagExpression: 'not @Pending',      // <string> (expression) only execute the features or scenarios with tags matching the expression, see https://docs.cucumber.io/tag-expressions/
+        tagExpression: '',      // <string> (expression) only execute the features or scenarios with tags matching the expression, see https://docs.cucumber.io/tag-expressions/
         timeout: defaultTimeoutInterval,    // <number> timeout for step definitions
         tagsInTitle: false,                 // <boolean> add cucumber tags to feature or scenario name
         snippetSyntax: undefined,           // <string> specify a custom snippet syntax

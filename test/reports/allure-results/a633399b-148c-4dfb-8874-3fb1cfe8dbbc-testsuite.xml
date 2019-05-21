@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558386910326' stop='1558386913274'>
+    <name>Opening a web page Get Current Tab ID</name>
+    <title>Opening a web page Get Current Tab ID</title>
+    <test-cases>
+        <test-case start='1558386910331' status='broken' stop='1558386913273'>
+            <name>I want to switch Tab</name>
+            <title>I want to switch Tab</title>
+            <labels>
+                <label name='feature' value='Opening a web page'/>
+                <label name='story' value='Get Current Tab ID'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5","chromeOptions":{"args":["disable-notifications","disable-infobars","disable-popup-blocking"],"prefs":{"profile.default_content_settings.popups":1,"profile.default_content_settings.notifications":1}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/pankaj/github/webdriverIO-with-cucumberBDD/test/features/Sample.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1558386910353' status='passed' stop='1558386910449'>
+                    <name>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/window_handle</name>
+                    <title>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/window_handle</title>
+                    <attachments>
+                        <attachment title='Response' source='b29671dc-6337-40df-9f5c-1e3bb604d316-attachment.json' type='application/json' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558386910450' status='passed' stop='1558386910647'>
+                    <name>POST /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/execute</name>
+                    <title>POST /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='db7bc763-816d-42c2-b9bd-f38ac10fa2fd-attachment.json' type='application/json' size='411'/>
+                        <attachment title='Response' source='c1e26df7-7cb1-49bb-857a-8bfdc299c2c0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558386910648' status='passed' stop='1558386910662'>
+                    <name>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/window_handles</name>
+                    <title>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/window_handles</title>
+                    <attachments>
+                        <attachment title='Response' source='eb357d0d-658a-4245-a6be-4738a754fffe-attachment.json' type='application/json' size='199'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558386910664' status='passed' stop='1558386910697'>
+                    <name>POST /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/window</name>
+                    <title>POST /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/window</title>
+                    <attachments>
+                        <attachment title='Request' source='c586809f-14d7-40e0-a70a-3334a0ac5903-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='2b0f4a85-0d9c-442f-8023-a40c48d94335-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558386910700' status='passed' stop='1558386910772'>
+                    <name>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/title</name>
+                    <title>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a28b35bc-7ffd-4edc-9e6c-3357a091f8db-attachment.json' type='application/json' size='547'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1558386910777' status='broken' stop='1558386913273'>
+                    <name>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/screenshot</name>
+                    <title>GET /wd/hub/session/d56ebd225b3bd3ea61ba6c01298f49e2/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8cac0b77-9fc7-4a7c-af93-6b1ac6e02c07-attachment.png' type='image/png' size='119091'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: cannot determine loading status
+                from no such execution context</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at getTitle() - at title() - getTitle.js:31:28</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

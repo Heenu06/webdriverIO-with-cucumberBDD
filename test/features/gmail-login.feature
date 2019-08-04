@@ -18,5 +18,5 @@ Feature:  send an email
 
     Examples:
       |user|password|email|subject|message|
-      |"heenupathak06@gmail.com"|"obey@GOD11me"|"heenu_rocking@yahoo.com"|"Testing"|"This mail is for testing purpose"|
+      |"heenupathak06@gmail.com"|"************"|"heenu_rocking@yahoo.com"|"Testing"|"This mail is for testing purpose"|
 
